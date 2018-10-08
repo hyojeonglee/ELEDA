@@ -1,0 +1,49 @@
+#!/bin/sh
+
+echo /bin/rm -f config/shore-config.h
+/bin/rm -f config/shore-config.h
+
+OS=`uname`
+
+if [ "$OS" = "SunOS" ] ; then
+    echo "Running autoreconf. Don't expect lightning speed ..."
+fi
+
+echo autoreconf --install --force
+autoreconf --install --force
+
+
+# configure: generate the Makefiles
+# input: ./configure.status
+# input: <dirs>/Makefile.in
+#
+echo ------------------------------------------------------------
+echo
+echo Run
+echo     ./configure 
+echo
+echo     ./configure --help 
+echo            to see the options
+echo
+echo Example configurations:
+echo For use with valgrind and to override CXX shell variable:
+echo     ./configure CXX=/usr/bin/g++ --enable-valgrind
+echo For maximum debugging and tracing :
+echo     ./configure --with-debug-level3 --enable-checkrc --enable-trace
+echo For lots of debugging and tracing :
+echo     ./configure --with-debug-level2 --enable-trace
+echo For debugging and no tracing :
+echo     ./configure --with-debug-level1 
+echo
+echo For SOLARIS, we suggest that you use --enable-dependendency-tracking and CC:
+echo     ./configure  CXX=CC --enable-dependency-tracking 
+echo For no debugging and no tracing :
+echo     ./configure 
+echo
+echo After you configure, run
+echo     make
+echo 
+echo then, optionally,
+echo     make check 
+echo
+echo ------------------------------------------------------------
