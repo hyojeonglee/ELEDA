@@ -914,6 +914,15 @@ log_core::set_current(
     _curr_num = num;
 }
 
+// TODO: Add ELEDA worker thread struct
+class e_work_daemon_thread_t : public smthread_t {
+	log_core* _log;
+public:
+	e_work_daemon_thread_t(log_core* log) :
+		smthread_t(t_reguler, "e_work_daemon", WAIT_NOT_USED), _log(log) { }
+
+	virtual void run() {_log->e_worker_daemon();}
+};
 
 class flush_daemon_thread_t : public smthread_t {
     log_core* _log;
@@ -2494,6 +2503,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
     bool acquired = false;
     if(enable_fastpath || !use_combination_array) {
 	info = tls_info_array->allocate();
+	
 	if(use_combination_array) {
 	    acquired = _insert_lock.attempt(&info->me);
 	}
@@ -2501,6 +2511,8 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	    _insert_lock.acquire(&info->me);
 	    acquired = true;
 	}
+
+	// if success (first come, pos=0)
 	if(acquired) {
 	    combination_stats[0]++;
 	    info->count = SLOT_FINISHED - size;
@@ -2520,6 +2532,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	}
     }
     
+	// else if fail
     if(!acquired) {
 	// need to consolidate
 	long idx =  (long)pthread_self();
@@ -2559,6 +2572,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	    old_count = _spin_on_count(&info->count, SLOT_FINISHED);
 	}
     }
+
 
     // insert my value
     if(!info->error) 

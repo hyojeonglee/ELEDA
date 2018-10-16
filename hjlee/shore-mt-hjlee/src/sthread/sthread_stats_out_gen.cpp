@@ -2,7 +2,7 @@
 #define STHREAD_STATS_OUT_GEN_CPP
 
 /* DO NOT EDIT --- GENERATED from sthread_stats.dat by stats.pl
-           on Thu Oct  4 20:06:31 2018
+           on Thu Oct 11 19:01:12 2018
 
 <std-header orig-src='shore' genfile='true'>
 

@@ -2,7 +2,7 @@
 #define BF_HTAB_STATS_T_MSG_GEN_H
 
 /* DO NOT EDIT --- GENERATED from bf_htab_stats.dat by stats.pl
-           on Thu Oct  4 20:06:36 2018
+           on Thu Oct 11 19:01:17 2018
 
 <std-header orig-src='shore' genfile='true'>
 
