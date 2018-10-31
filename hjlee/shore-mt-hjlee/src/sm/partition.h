@@ -108,6 +108,7 @@ private:
     * when partition closed 
     */
     void             flush(int fd);
+	// TODO: Control lsn_t
     lsn_t            first_lsn(uint4_t pnum) const { return lsn_t( pnum, 0); }
 
 public:
