@@ -16,15 +16,13 @@ src/workload/tpce/egen/EGenLoader.o: \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/4.8/cassert \
- /usr/include/assert.h /usr/include/c++/4.8/fstream \
- /usr/include/c++/4.8/istream /usr/include/c++/4.8/ios \
- /usr/include/c++/4.8/iosfwd /usr/include/c++/4.8/bits/stringfwd.h \
+ /usr/include/c++/4.8/cassert /usr/include/assert.h \
+ /usr/include/c++/4.8/fstream /usr/include/c++/4.8/istream \
+ /usr/include/c++/4.8/ios /usr/include/c++/4.8/iosfwd \
+ /usr/include/c++/4.8/bits/stringfwd.h \
  /usr/include/c++/4.8/bits/memoryfwd.h \
  /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
  /usr/include/x86_64-linux-gnu/bits/wchar.h /usr/include/xlocale.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/4.8/exception \
  /usr/include/c++/4.8/bits/atomic_lockfree_defines.h \
  /usr/include/c++/4.8/bits/char_traits.h \
@@ -99,11 +97,8 @@ src/workload/tpce/egen/EGenLoader.o: \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h \
  /usr/include/x86_64-linux-gnu/sys/sysmacros.h /usr/include/alloca.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h \
  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/x86_64-linux-gnu/bits/stdlib.h \
  /usr/include/c++/4.8/bits/algorithmfwd.h \
  /usr/include/c++/4.8/bits/stl_heap.h \
  /usr/include/c++/4.8/bits/stl_tempbuf.h \
@@ -122,14 +117,13 @@ src/workload/tpce/egen/EGenLoader.o: \
  /usr/include/x86_64-linux-gnu/bits/nan.h \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  /usr/include/c++/4.8/queue /usr/include/c++/4.8/deque \
  /usr/include/c++/4.8/bits/stl_deque.h \
  /usr/include/c++/4.8/bits/deque.tcc \
  /usr/include/c++/4.8/bits/stl_queue.h \
  include/workload/tpce/egen/EGenStandardTypes.h \
  /usr/include/c++/4.8/cstring /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/inttypes.h \
+ /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
  include/workload/tpce/egen/EGenUtilities_stdafx.h \
  /usr/include/c++/4.8/cstddef /usr/include/c++/4.8/cerrno \
@@ -215,9 +209,10 @@ src/workload/tpce/egen/EGenLoader.o: \
  include/workload/tpce/egen/DM.h \
  include/workload/tpce/egen/DMSUTInterface.h \
  include/workload/tpce/MEESUT.h include/sm/shore/shore_env.h \
- include/k_defines.h /home/dcslab/charlie/shore-mt/src/fc/w_defines.h \
- /home/dcslab/charlie/shore-mt/src/../config/shore.def \
- /home/dcslab/charlie/shore-mt/src/../config/shore-config.h \
+ include/k_defines.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_defines.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/../config/shore.def \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/../config/shore-config.h \
  /usr/include/c++/4.8/climits \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include-fixed/syslimits.h \
@@ -229,26 +224,25 @@ src/workload/tpce/egen/EGenLoader.o: \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h /usr/include/getopt.h \
- /usr/include/x86_64-linux-gnu/bits/unistd.h \
- /home/dcslab/charlie/shore-mt/src/fc/atomic_templates.h \
- /home/dcslab/charlie/shore-mt/src/atomic_ops/atomic_ops.h \
- /home/dcslab/charlie/shore-mt/src/atomic_ops/atomic_ops_builtin.h \
- /home/dcslab/charlie/shore-mt/src/common/sm_vas.h \
- /home/dcslab/charlie/shore-mt/src/fc/w.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_defines.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_base.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_stream.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_strstream.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_workaround.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_compat_strstream.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_autodel.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_error.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_base.h \
- /home/dcslab/charlie/shore-mt/src/fc/fc_error_enum_gen.h \
- /home/dcslab/charlie/shore-mt/src/fc/tls.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_rc.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_error.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_minmax.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/atomic_templates.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/atomic_ops/atomic_ops.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/atomic_ops/atomic_ops_builtin.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/sm_vas.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_defines.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_base.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_stream.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_strstream.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_workaround.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_compat_strstream.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_autodel.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_error.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_base.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/fc_error_enum_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/tls.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_rc.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_error.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_minmax.h \
  /usr/include/x86_64-linux-gnu/sys/param.h /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum.h \
  /usr/include/x86_64-linux-gnu/bits/siginfo.h \
@@ -260,87 +254,88 @@ src/workload/tpce/egen/EGenLoader.o: \
  /usr/include/x86_64-linux-gnu/bits/param.h /usr/include/linux/param.h \
  /usr/include/x86_64-linux-gnu/asm/param.h \
  /usr/include/asm-generic/param.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_list.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_hash.h \
- /home/dcslab/charlie/shore-mt/src/common/option.h \
- /home/dcslab/charlie/shore-mt/src/common/opt_error_def_gen.h \
- /home/dcslab/charlie/shore-mt/src/common/basics.h \
- /home/dcslab/charlie/shore-mt/src/common/lid_t.h \
- /home/dcslab/charlie/shore-mt/src/common/vec_t.h \
- /home/dcslab/charlie/shore-mt/src/common/tid_t.h \
- /home/dcslab/charlie/shore-mt/src/common/w_opaque.h \
- /home/dcslab/charlie/shore-mt/src/common/stid_t.h \
- /home/dcslab/charlie/shore-mt/src/common/vid_t.h \
- /home/dcslab/charlie/shore-mt/src/common/devid_t.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_int_4.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_int_3.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_int_2.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_int_1.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_int_0.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_debug.h \
- /home/dcslab/charlie/shore-mt/src/fc/errlog.h \
- /home/dcslab/charlie/shore-mt/src/sm/sysdefs.h \
- /home/dcslab/charlie/shore-mt/src/sthread/sthread.h \
- /home/dcslab/charlie/shore-mt/src/fc/stime.h \
- /home/dcslab/charlie/shore-mt/src/fc/gethrtime.h \
- /home/dcslab/charlie/shore-mt/src/fc/vtable.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_rand.h \
- /home/dcslab/charlie/shore-mt/src/sthread/sdisk.h \
- /home/dcslab/charlie/shore-mt/src/sthread/st_error_enum_gen.h \
- /home/dcslab/charlie/shore-mt/src/sthread/os_interface.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_list.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_hash.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/option.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/opt_error_def_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/basics.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/lid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/vec_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/tid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/w_opaque.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/stid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/vid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/devid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_4.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_3.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_2.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_1.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_0.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_debug.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/errlog.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sysdefs.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/sthread.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/stime.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/gethrtime.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/vtable.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_rand.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/sdisk.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/st_error_enum_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/os_interface.h \
  /usr/include/dirent.h /usr/include/x86_64-linux-gnu/bits/dirent.h \
- /home/dcslab/charlie/shore-mt/src/sthread/mcs_lock.h \
- /home/dcslab/charlie/shore-mt/src/sthread/srwlock.h \
- /home/dcslab/charlie/shore-mt/src/common/basics.h \
- /home/dcslab/charlie/shore-mt/src/common/vec_t.h \
- /home/dcslab/charlie/shore-mt/src/common/latch.h \
- /home/dcslab/charlie/shore-mt/src/common/lid_t.h \
- /home/dcslab/charlie/shore-mt/src/sm/smthread.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_base.h \
- /home/dcslab/charlie/shore-mt/src/common/opt_error_def_gen.h \
- /home/dcslab/charlie/shore-mt/src/sm/e_error_enum_gen.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_bitvector.h \
- /home/dcslab/charlie/shore-mt/src/common/tid_t.h \
- /home/dcslab/charlie/shore-mt/src/sm/smstats.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_stats_t_struct_gen.h \
- /home/dcslab/charlie/shore-mt/src/sm/bf_htab_stats_t_struct_gen.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_du_stats.h \
- /home/dcslab/charlie/shore-mt/src/common/stid_t.h \
- /home/dcslab/charlie/shore-mt/src/sm/smstats.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_s.h \
- /home/dcslab/charlie/shore-mt/src/common/lsn.h \
- /home/dcslab/charlie/shore-mt/src/sm/lexify.h \
- /home/dcslab/charlie/shore-mt/src/fc/nbox.h \
- /home/dcslab/charlie/shore-mt/src/sm/sort_s.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_escalation.h \
- /home/dcslab/charlie/shore-mt/src/sm/pin.h \
- /home/dcslab/charlie/shore-mt/src/sm/file_s.h \
- /home/dcslab/charlie/shore-mt/src/sm/page_alias.h \
- /home/dcslab/charlie/shore-mt/src/sm/scan.h \
- /home/dcslab/charlie/shore-mt/src/sm/xct_dependent.h \
- /home/dcslab/charlie/shore-mt/src/sm/sdesc.h \
- /home/dcslab/charlie/shore-mt/src/sm/key_ranges_map.h \
- /home/dcslab/charlie/shore-mt/src/common/umemcmp.h \
- /home/dcslab/charlie/shore-mt/src/sm/sm_int_2.h \
- /home/dcslab/charlie/shore-mt/src/common/kvl_t.h \
- /home/dcslab/charlie/shore-mt/src/sm/lock_s.h \
- /home/dcslab/charlie/shore-mt/src/fc/w_hashing.h \
- /home/dcslab/charlie/shore-mt/src/sm/lock_s_inline.h \
- /home/dcslab/charlie/shore-mt/src/sm/key_ranges_map.h \
- /home/dcslab/charlie/shore-mt/src/sm/sort.h \
- /home/dcslab/charlie/shore-mt/src/fc/block_alloc.h \
- /home/dcslab/charlie/shore-mt/src/fc/dynarray.h \
- /home/dcslab/charlie/shore-mt/src/fc/mem_block.h include/kits-config.h \
- /usr/include/c++/4.8/cstdarg include/util.h include/k_defines.h \
- include/util/namespace.h include/util/compat.h include/util/c_str.h \
- include/util/namespace.h include/util/compat.h include/util/decimal.h \
- include/util/exception.h include/util/c_str.h include/util/guard.h \
- include/util/trace.h include/util/compat.h include/trace/trace_types.h \
- include/util/exception.h include/util/stopwatch.h include/util/sync.h \
- include/util/thread.h /usr/include/c++/4.8/functional \
- include/util/randgen.h include/util/thread.h include/util/time_util.h \
- include/util/trace.h include/util/tassert.h include/util/randgen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/mcs_lock.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/srwlock.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/basics.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/vec_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/latch.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/lid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/smthread.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_base.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/opt_error_def_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/e_error_enum_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_bitvector.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/tid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/smstats.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_stats_t_struct_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/bf_htab_stats_t_struct_gen.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_du_stats.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/stid_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/smstats.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_s.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/lsn.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/lexify.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/nbox.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sort_s.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_escalation.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/pin.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/file_s.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/page_alias.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/scan.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/xct_dependent.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sdesc.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/key_ranges_map.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/umemcmp.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_2.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/kvl_t.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/lock_s.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_hashing.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/lock_s_inline.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/key_ranges_map.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sort.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/block_alloc.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/dynarray.h \
+ /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/mem_block.h \
+ include/kits-config.h /usr/include/c++/4.8/cstdarg include/util.h \
+ include/k_defines.h include/util/namespace.h include/util/compat.h \
+ include/util/c_str.h include/util/namespace.h include/util/compat.h \
+ include/util/decimal.h include/util/exception.h include/util/c_str.h \
+ include/util/guard.h include/util/trace.h include/util/compat.h \
+ include/trace/trace_types.h include/util/exception.h \
+ include/util/stopwatch.h include/util/sync.h include/util/thread.h \
+ /usr/include/c++/4.8/functional include/util/randgen.h \
+ include/util/thread.h include/util/time_util.h include/util/trace.h \
+ include/util/tassert.h include/util/randgen.h \
  include/util/store_string.h include/util/pool_alloc.h \
  include/util/thread_local.h include/util/file.h \
  /usr/include/c++/4.8/stdexcept include/util/progress.h \
@@ -359,8 +354,7 @@ src/workload/tpce/egen/EGenLoader.o: \
  /usr/include/x86_64-linux-gnu/asm/socket.h \
  /usr/include/asm-generic/socket.h \
  /usr/include/x86_64-linux-gnu/asm/sockios.h \
- /usr/include/asm-generic/sockios.h \
- /usr/include/x86_64-linux-gnu/bits/socket2.h /usr/include/netdb.h \
+ /usr/include/asm-generic/sockios.h /usr/include/netdb.h \
  /usr/include/netinet/in.h /usr/include/x86_64-linux-gnu/bits/in.h \
  /usr/include/rpc/netdb.h /usr/include/x86_64-linux-gnu/bits/netdb.h \
  include/util/command/command_handler.h include/util/command/tracer.h \
@@ -422,10 +416,6 @@ include/workload/tpce/egen/EGenLoader_stdafx.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/c++/4.8/cassert:
 
 /usr/include/assert.h:
@@ -449,8 +439,6 @@ include/workload/tpce/egen/EGenLoader_stdafx.h:
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
 /usr/include/xlocale.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/4.8/exception:
 
@@ -636,17 +624,11 @@ include/workload/tpce/egen/EGenLoader_stdafx.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigset.h:
 
-/usr/include/x86_64-linux-gnu/bits/select2.h:
-
 /usr/include/x86_64-linux-gnu/sys/sysmacros.h:
 
 /usr/include/alloca.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdlib-bsearch.h:
-
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdlib.h:
 
 /usr/include/c++/4.8/bits/algorithmfwd.h:
 
@@ -688,8 +670,6 @@ include/workload/tpce/egen/EGenTables_stdafx.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathinline.h:
-
 /usr/include/c++/4.8/queue:
 
 /usr/include/c++/4.8/deque:
@@ -705,8 +685,6 @@ include/workload/tpce/egen/EGenStandardTypes.h:
 /usr/include/c++/4.8/cstring:
 
 /usr/include/string.h:
-
-/usr/include/x86_64-linux-gnu/bits/string3.h:
 
 /usr/include/inttypes.h:
 
@@ -904,11 +882,11 @@ include/sm/shore/shore_env.h:
 
 include/k_defines.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_defines.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_defines.h:
 
-/home/dcslab/charlie/shore-mt/src/../config/shore.def:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/../config/shore.def:
 
-/home/dcslab/charlie/shore-mt/src/../config/shore-config.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/../config/shore-config.h:
 
 /usr/include/c++/4.8/climits:
 
@@ -938,45 +916,43 @@ include/k_defines.h:
 
 /usr/include/getopt.h:
 
-/usr/include/x86_64-linux-gnu/bits/unistd.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/atomic_templates.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/atomic_templates.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/atomic_ops/atomic_ops.h:
 
-/home/dcslab/charlie/shore-mt/src/atomic_ops/atomic_ops.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/atomic_ops/atomic_ops_builtin.h:
 
-/home/dcslab/charlie/shore-mt/src/atomic_ops/atomic_ops_builtin.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/sm_vas.h:
 
-/home/dcslab/charlie/shore-mt/src/common/sm_vas.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_defines.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_defines.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_base.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_base.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_stream.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_stream.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_strstream.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_strstream.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_workaround.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_workaround.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_compat_strstream.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_compat_strstream.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_autodel.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_autodel.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_error.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_error.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_base.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_base.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/fc_error_enum_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/fc_error_enum_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/tls.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/tls.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_rc.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_rc.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_error.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_error.h:
-
-/home/dcslab/charlie/shore-mt/src/fc/w_minmax.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_minmax.h:
 
 /usr/include/x86_64-linux-gnu/sys/param.h:
 
@@ -1004,151 +980,151 @@ include/k_defines.h:
 
 /usr/include/asm-generic/param.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_list.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_list.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_hash.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_hash.h:
 
-/home/dcslab/charlie/shore-mt/src/common/option.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/option.h:
 
-/home/dcslab/charlie/shore-mt/src/common/opt_error_def_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/opt_error_def_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/common/basics.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/basics.h:
 
-/home/dcslab/charlie/shore-mt/src/common/lid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/lid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/common/vec_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/vec_t.h:
 
-/home/dcslab/charlie/shore-mt/src/common/tid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/tid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/common/w_opaque.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/w_opaque.h:
 
-/home/dcslab/charlie/shore-mt/src/common/stid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/stid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/common/vid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/vid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/common/devid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/devid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_int_4.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_4.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_int_3.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_3.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_int_2.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_2.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_int_1.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_1.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_int_0.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_0.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_debug.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_debug.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/errlog.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/errlog.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sysdefs.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sysdefs.h:
 
-/home/dcslab/charlie/shore-mt/src/sthread/sthread.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/sthread.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/stime.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/stime.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/gethrtime.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/gethrtime.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/vtable.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/vtable.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_rand.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_rand.h:
 
-/home/dcslab/charlie/shore-mt/src/sthread/sdisk.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/sdisk.h:
 
-/home/dcslab/charlie/shore-mt/src/sthread/st_error_enum_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/st_error_enum_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/sthread/os_interface.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/os_interface.h:
 
 /usr/include/dirent.h:
 
 /usr/include/x86_64-linux-gnu/bits/dirent.h:
 
-/home/dcslab/charlie/shore-mt/src/sthread/mcs_lock.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/mcs_lock.h:
 
-/home/dcslab/charlie/shore-mt/src/sthread/srwlock.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread/srwlock.h:
 
-/home/dcslab/charlie/shore-mt/src/common/basics.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/basics.h:
 
-/home/dcslab/charlie/shore-mt/src/common/vec_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/vec_t.h:
 
-/home/dcslab/charlie/shore-mt/src/common/latch.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/latch.h:
 
-/home/dcslab/charlie/shore-mt/src/common/lid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/lid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/smthread.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/smthread.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_base.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_base.h:
 
-/home/dcslab/charlie/shore-mt/src/common/opt_error_def_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/opt_error_def_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/e_error_enum_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/e_error_enum_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_bitvector.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_bitvector.h:
 
-/home/dcslab/charlie/shore-mt/src/common/tid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/tid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/smstats.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/smstats.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_stats_t_struct_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_stats_t_struct_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/bf_htab_stats_t_struct_gen.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/bf_htab_stats_t_struct_gen.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_du_stats.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_du_stats.h:
 
-/home/dcslab/charlie/shore-mt/src/common/stid_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/stid_t.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/smstats.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/smstats.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_s.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_s.h:
 
-/home/dcslab/charlie/shore-mt/src/common/lsn.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/lsn.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/lexify.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/lexify.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/nbox.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/nbox.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sort_s.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sort_s.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_escalation.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_escalation.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/pin.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/pin.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/file_s.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/file_s.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/page_alias.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/page_alias.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/scan.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/scan.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/xct_dependent.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/xct_dependent.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sdesc.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sdesc.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/key_ranges_map.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/key_ranges_map.h:
 
-/home/dcslab/charlie/shore-mt/src/common/umemcmp.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/umemcmp.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sm_int_2.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sm_int_2.h:
 
-/home/dcslab/charlie/shore-mt/src/common/kvl_t.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/common/kvl_t.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/lock_s.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/lock_s.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/w_hashing.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/w_hashing.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/lock_s_inline.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/lock_s_inline.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/key_ranges_map.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/key_ranges_map.h:
 
-/home/dcslab/charlie/shore-mt/src/sm/sort.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sm/sort.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/block_alloc.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/block_alloc.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/dynarray.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/dynarray.h:
 
-/home/dcslab/charlie/shore-mt/src/fc/mem_block.h:
+/home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/fc/mem_block.h:
 
 include/kits-config.h:
 
@@ -1269,8 +1245,6 @@ include/util/shell.h:
 /usr/include/x86_64-linux-gnu/asm/sockios.h:
 
 /usr/include/asm-generic/sockios.h:
-
-/usr/include/x86_64-linux-gnu/bits/socket2.h:
 
 /usr/include/netdb.h:
 

@@ -1,1 +1,1 @@
-configure args: --enable-dbgsymbols --enable-checkrc
+configure args: --enable-dbgsymbols --enable-checkrc --no-create --no-recursion

@@ -1,1 +1,1 @@
-configure args: --enable-checkrc
+configure args: --enable-dbgsymbols --enable-checkrc --enable-debug

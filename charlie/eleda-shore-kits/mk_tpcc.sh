@@ -20,9 +20,13 @@ fi
 
 SF=$1
 
-mkdir -p /dev/shm/log-tpcc-$SF
-mkdir -p /dev/shm/databases
-ln -s /dev/shm/log-tpcc-$SF
-ln -s /dev/shm/databases
+# mkdir -p /dev/shm/log-tpcc-$SF
+# mkdir -p /dev/shm/databases
+# ln -s /dev/shm/log-tpcc-$SF
+# ln -s /dev/shm/databases
+
+mkdir -p ./log-tpcc-$SF
+mkdir -p ./databases
+
 
 

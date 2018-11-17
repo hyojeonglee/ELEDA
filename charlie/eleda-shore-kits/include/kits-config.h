@@ -43,12 +43,6 @@
 /* Define to 1 if you have the <procfs.h> header file. */
 /* #undef HAVE_PROCFS_H */
 
-/* Define if you have POSIX threads libraries and header files. */
-#define HAVE_PTHREAD 1
-
-/* Have PTHREAD_PRIO_INHERIT. */
-#define HAVE_PTHREAD_PRIO_INHERIT 1
-
 /* Readline library is available */
 /* #undef HAVE_READLINE */
 
@@ -96,10 +90,6 @@
 
 /* Define to the version of this package. */
 #define PACKAGE_VERSION "2.1"
-
-/* Define to necessary symbol if this constant uses a non-standard name on
-   your system. */
-/* #undef PTHREAD_CREATE_JOINABLE */
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1

@@ -310,6 +310,9 @@ private:
     partition_t *   _partition(partition_index_t i) const;
 
     void _acquire_buffer_space(insert_info* info, long size);
+//charlie added
+    void _acquire_buffer_space_for_each(insert_info* info, long size);
+//charlie add end
     lsn_t _copy_to_buffer(logrec_t &rec, long pos, long size, insert_info* info);
     bool _update_epochs(insert_info* info, bool attempt_abort);
     bool _wait_for_expose(insert_info* info, bool attempt_abort);

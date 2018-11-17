@@ -17,17 +17,15 @@ src/workload/tpce/egen/EGenVersion.o: \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /usr/include/x86_64-linux-gnu/bits/stdio.h \
- /usr/include/x86_64-linux-gnu/bits/stdio2.h /usr/include/c++/4.8/cerrno \
- /usr/include/errno.h /usr/include/x86_64-linux-gnu/bits/errno.h \
- /usr/include/linux/errno.h /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/c++/4.8/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/time.h \
  /usr/include/x86_64-linux-gnu/bits/time.h \
  /usr/include/x86_64-linux-gnu/sys/select.h \
  /usr/include/x86_64-linux-gnu/bits/select.h \
- /usr/include/x86_64-linux-gnu/bits/sigset.h \
- /usr/include/x86_64-linux-gnu/bits/select2.h /usr/include/c++/4.8/ctime \
+ /usr/include/x86_64-linux-gnu/bits/sigset.h /usr/include/c++/4.8/ctime \
  /usr/include/x86_64-linux-gnu/bits/timex.h /usr/include/xlocale.h \
  /usr/include/c++/4.8/cassert /usr/include/assert.h \
  /usr/include/c++/4.8/list /usr/include/c++/4.8/bits/stl_algobase.h \
@@ -55,7 +53,6 @@ src/workload/tpce/egen/EGenVersion.o: \
  /usr/include/c++/4.8/bits/stringfwd.h \
  /usr/include/c++/4.8/bits/postypes.h /usr/include/c++/4.8/cwchar \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
- /usr/include/x86_64-linux-gnu/bits/wchar2.h \
  /usr/include/c++/4.8/bits/char_traits.h \
  /usr/include/c++/4.8/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/4.8/bits/c++locale.h \
@@ -106,7 +103,7 @@ src/workload/tpce/egen/EGenVersion.o: \
  /usr/include/c++/4.8/bits/vector.tcc \
  include/workload/tpce/egen/EGenStandardTypes.h \
  /usr/include/c++/4.8/cstring /usr/include/string.h \
- /usr/include/x86_64-linux-gnu/bits/string3.h /usr/include/inttypes.h \
+ /usr/include/inttypes.h \
  /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h /usr/include/stdint.h \
  include/workload/tpce/egen/DateTime.h \
  include/workload/tpce/egen/Random.h include/workload/tpce/egen/BigMath.h \
@@ -118,7 +115,6 @@ src/workload/tpce/egen/EGenVersion.o: \
  /usr/include/x86_64-linux-gnu/bits/nan.h \
  /usr/include/x86_64-linux-gnu/bits/mathdef.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /usr/include/x86_64-linux-gnu/bits/mathinline.h \
  include/workload/tpce/egen/error.h \
  include/workload/tpce/egen/TableConsts.h \
  include/workload/tpce/egen/MiscConsts.h \
@@ -174,10 +170,6 @@ include/workload/tpce/egen/EGenUtilities_stdafx.h:
 
 /usr/include/x86_64-linux-gnu/bits/sys_errlist.h:
 
-/usr/include/x86_64-linux-gnu/bits/stdio.h:
-
-/usr/include/x86_64-linux-gnu/bits/stdio2.h:
-
 /usr/include/c++/4.8/cerrno:
 
 /usr/include/errno.h:
@@ -203,8 +195,6 @@ include/workload/tpce/egen/EGenUtilities_stdafx.h:
 /usr/include/x86_64-linux-gnu/bits/select.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigset.h:
-
-/usr/include/x86_64-linux-gnu/bits/select2.h:
 
 /usr/include/c++/4.8/ctime:
 
@@ -279,8 +269,6 @@ include/workload/tpce/egen/EGenUtilities_stdafx.h:
 /usr/include/c++/4.8/cwchar:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
-
-/usr/include/x86_64-linux-gnu/bits/wchar2.h:
 
 /usr/include/c++/4.8/bits/char_traits.h:
 
@@ -406,8 +394,6 @@ include/workload/tpce/egen/EGenStandardTypes.h:
 
 /usr/include/string.h:
 
-/usr/include/x86_64-linux-gnu/bits/string3.h:
-
 /usr/include/inttypes.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/4.8/include/stdint.h:
@@ -437,8 +423,6 @@ include/workload/tpce/egen/BigMath.h:
 /usr/include/x86_64-linux-gnu/bits/mathdef.h:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathinline.h:
 
 include/workload/tpce/egen/error.h:
 

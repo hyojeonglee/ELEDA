@@ -16,3 +16,12 @@ Error: could not open the log directory log-tpcc-1
 Error: could not open the log directory log-tpcc-1
 	Note: the log directory is specified using
 	      the sm_logdir option.
+Error: could not open the log directory log-tpcc-12
+	Note: the log directory is specified using
+	      the sm_logdir option.
+Error: could not open the log directory log-tpcc-12
+	Note: the log directory is specified using
+	      the sm_logdir option.
+Error: could not open the log directory log-tpcc-12
+	Note: the log directory is specified using
+	      the sm_logdir option.

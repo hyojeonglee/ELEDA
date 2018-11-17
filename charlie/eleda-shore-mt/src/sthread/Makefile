@@ -133,8 +133,8 @@ am__append_10 =
 #	-Wmissing-declarations \
 #	-Wnested-externs
 am__append_13 = -Woverloaded-virtual 
-#am__append_14 = $(SYMBOLSFLAGS)
-am__append_15 = $(NOSYMBOLSFLAGS)
+am__append_14 = $(SYMBOLSFLAGS)
+#am__append_15 = $(NOSYMBOLSFLAGS)
 # PURIFY_COLLECTOR = -collector=/usr/bin/ld
 #am__append_16 = $(PURIFY_LIBS)
 #am__append_17 = $(check_PROGRAMS:%=%.pure)
@@ -297,13 +297,13 @@ am__relativize = \
     dir1=`echo "$$dir1" | sed -e "$$sed_rest"`; \
   done; \
   reldir="$$dir2"
-ACLOCAL = ${SHELL} /home/dcslab/charlie/shore-mt/config/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/config/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 AR = ar
-AUTOCONF = ${SHELL} /home/dcslab/charlie/shore-mt/config/missing autoconf
-AUTOHEADER = ${SHELL} /home/dcslab/charlie/shore-mt/config/missing autoheader
-AUTOMAKE = ${SHELL} /home/dcslab/charlie/shore-mt/config/missing automake-1.14
+AUTOCONF = ${SHELL} /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/config/missing autoconf
+AUTOHEADER = ${SHELL} /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/config/missing autoheader
+AUTOMAKE = ${SHELL} /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/config/missing automake-1.14
 AWK = gawk
 CC = gcc
 CCAS = gcc
@@ -337,7 +337,7 @@ LDFLAGS =
 LIBOBJS = 
 LIBS = -lrt  
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/dcslab/charlie/shore-mt/config/missing makeinfo
+MAKEINFO = ${SHELL} /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/config/missing makeinfo
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
 PACKAGE = shore-storage-manager
@@ -358,10 +358,10 @@ SET_MAKE =
 SHELL = /bin/bash
 STRIP = 
 VERSION = 7.0.0
-abs_builddir = /home/dcslab/charlie/shore-mt/src/sthread
-abs_srcdir = /home/dcslab/charlie/shore-mt/src/sthread
-abs_top_builddir = /home/dcslab/charlie/shore-mt
-abs_top_srcdir = /home/dcslab/charlie/shore-mt
+abs_builddir = /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread
+abs_srcdir = /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/src/sthread
+abs_top_builddir = /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt
+abs_top_srcdir = /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_CXX = g++
@@ -391,7 +391,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/dcslab/charlie/shore-mt/config/install-sh
+install_sh = ${SHELL} /home/dcslab/charlie/ELEDA/charlie/eleda-shore-mt/config/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -519,11 +519,11 @@ SYMBOLSFLAGS = -ggdb
 NOSYMBOLSFLAGS = 
 # -g0 turns off inlining
 #NOSYMBOLSFLAGS = -g0 
-NOOPTFLAGS = -O0 $(NO_INLINE_FLAGS) 
+NOOPTFLAGS = -O3 $(NO_INLINE_FLAGS) 
 #NOOPTFLAGS = -O0 $(NO_INLINE_FLAGS)
-MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)
+MIDOPTFLAGS = -O0 $(YES_INLINE_FLAGS)
 #MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)
-FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)
+FULLOPTFLAGS = -O0 -fexpensive-optimizations $(YES_INLINE_FLAGS)
 #FULLOPTFLAGS = -xO4
 DEBUGFLAGS = $(GENERIC_NODEBUG_FLAGS) \
 	$(am__append_14) \
