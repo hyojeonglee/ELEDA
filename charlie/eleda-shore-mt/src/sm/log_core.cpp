@@ -50,6 +50,8 @@
 
 */
 
+#define PARALLEL_LOGGING
+
 #include "w_defines.h"
 
 /*  -- do not edit anything above this line --   </std-header>*/
@@ -2545,6 +2547,7 @@ bool log_core::_update_epochs(insert_info* info, bool attempt_abort) {
 	if( _wait_for_expose(info, attempt_abort))
 		return true; // we escaped!
 
+
 	//_print_expose_queue(&info->me2);
 
 	/*
@@ -2747,7 +2750,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 		//pos is the value that we wanted
 		//cout << " this pos " << pos << endl;
 //charlie added concurrent write to buf
-#if 1
+#ifdef PARALLEL_LOGGING
 		if(old_count == SLOT_AVAILABLE) { //first one
 			_insert_lock.acquire(&info->me);
 			_allocate_slot(idx); //mark it as busy
@@ -2760,7 +2763,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 		combination_stats[group_size]++;
 		temp_count = old_count;
 		old_count &= ONE - 1;
-		_acquire_buffer_space_for_each(info, old_count);
+		_acquire_buffer_space_for_each(info, size);
 		membar_producer();
 		if(!info->error)
 			rec_lsn = _copy_to_buffer(rec, pos, size, info);
@@ -2801,11 +2804,13 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	}
 
 	// insert my value
-	//if(!info->error) 
-	//	rec_lsn = _copy_to_buffer(rec, pos, size, info);
+#ifndef PARALLEL_LOGGING
+	if(!info->error) 
+		rec_lsn = _copy_to_buffer(rec, pos, size, info);
+#endif
 
 	// last one to leave cleans up
-#if 0
+#ifndef PARALLEL_LOGGING
 	long end_count = atomic_add_long_nv((unsigned long *)&info->count, size);
 	w_assert3(end_count <= SLOT_FINISHED);
 	if(end_count == SLOT_FINISHED) {
@@ -2816,6 +2821,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	}
 #else
 	if(temp_count + size + ONE == info->vthis()->count) {//last one //		
+	//	_acquire_buffer_space_for_each(info, size);
 		if(!info->error)
 			_update_epochs(info, use_expose_groups && use_decoupled_memcpy);
 		if(!use_decoupled_memcpy) 

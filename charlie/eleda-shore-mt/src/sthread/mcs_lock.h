@@ -104,6 +104,7 @@ struct mcs_lock {
 		}
 		return pred;
 	}
+
 	void* __unsafe_end_acquire(qnode* me, qnode* pred) {
 		if(pred) {
 			spin_on_waiting(me);

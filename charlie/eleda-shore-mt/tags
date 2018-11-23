@@ -13,45 +13,45 @@ A16	src/atomic_ops/intel/ia32/sys/asm_linkage.h	70;"	d
 ABORT_ME	src/sm/log_core.cpp	/^} const WAITING = {{0,1,0}}, ABORT_ME = {{0,1,1}};$/;"	v	file:
 ABS	src/fc/nbox.cpp	59;"	d	file:
 ABS	src/sm/rtree.cpp	81;"	d	file:
-ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	config/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/atomic_ops/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/atomic_ops/amd64/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/atomic_ops/i386/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/atomic_ops/sparc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/ia32/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/ia32/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/intel/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/intel/ia32/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/intel/ia32/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/intel/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/sparc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/atomic_ops/sparc/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/common/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/common/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/fc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/fc/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sm/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sm/smsh/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sm/smsh/lib/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sm/smsh/scripts/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sm/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sthread/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	src/sthread/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
-ACLOCAL	tools/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	config/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/atomic_ops/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/atomic_ops/amd64/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/atomic_ops/i386/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/atomic_ops/sparc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/ia32/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/ia32/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/intel/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/intel/ia32/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/intel/ia32/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/intel/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/sparc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/atomic_ops/sparc/sys/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/common/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/common/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/fc/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/fc/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sm/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sm/smsh/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sm/smsh/lib/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sm/smsh/scripts/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sm/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sthread/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	src/sthread/tests/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
+ACLOCAL	tools/Makefile	/^ACLOCAL = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing aclocal-1.14$/;"	m
 ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ACLOCAL_M4	config/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
 ACLOCAL_M4	src/Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
@@ -712,123 +712,123 @@ ATOMIC_BACKOFF_INIT	src/atomic_ops/atomic_ops/sparcv9/atomic.s	/^#define ATOMIC_
 ATOMIC_TEMPLATES_H	src/fc/atomic_templates.h	69;"	d
 ATTEMPT	src/fc/cpu_info.cpp	149;"	d	file:
 ATTEMPT	src/fc/tls.cpp	34;"	d	file:
-AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	config/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/atomic_ops/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/atomic_ops/amd64/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/atomic_ops/i386/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/atomic_ops/sparc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/ia32/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/ia32/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/intel/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/intel/ia32/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/intel/ia32/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/intel/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/sparc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/atomic_ops/sparc/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/common/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/common/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/fc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/fc/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sm/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sm/smsh/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sm/smsh/lib/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sm/smsh/scripts/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sm/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sthread/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	src/sthread/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOCONF	tools/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoconf$/;"	m
-AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	config/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/atomic_ops/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/atomic_ops/amd64/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/atomic_ops/i386/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/atomic_ops/sparc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/ia32/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/ia32/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/intel/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/intel/ia32/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/intel/ia32/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/intel/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/sparc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/atomic_ops/sparc/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/common/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/common/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/fc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/fc/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sm/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sm/smsh/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sm/smsh/lib/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sm/smsh/scripts/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sm/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sthread/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	src/sthread/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOHEADER	tools/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing autoheader$/;"	m
-AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	config/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/atomic_ops/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/atomic_ops/amd64/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/atomic_ops/i386/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/atomic_ops/sparc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/ia32/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/ia32/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/intel/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/intel/ia32/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/intel/ia32/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/intel/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/sparc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/atomic_ops/sparc/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/common/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/common/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/fc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/fc/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sm/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sm/smsh/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sm/smsh/lib/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sm/smsh/scripts/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sm/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sthread/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	src/sthread/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
-AUTOMAKE	tools/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	config/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/atomic_ops/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/atomic_ops/amd64/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/atomic_ops/i386/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/atomic_ops/sparc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/ia32/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/ia32/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/intel/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/intel/ia32/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/intel/ia32/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/intel/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/sparc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/atomic_ops/sparc/sys/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/common/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/common/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/fc/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/fc/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sm/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sm/smsh/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sm/smsh/lib/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sm/smsh/scripts/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sm/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sthread/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	src/sthread/tests/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOCONF	tools/Makefile	/^AUTOCONF = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	config/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/atomic_ops/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/atomic_ops/amd64/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/atomic_ops/i386/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/atomic_ops/sparc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/ia32/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/ia32/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/intel/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/intel/ia32/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/intel/ia32/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/intel/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/sparc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/atomic_ops/sparc/sys/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/common/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/common/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/fc/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/fc/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sm/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sm/smsh/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sm/smsh/lib/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sm/smsh/scripts/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sm/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sthread/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	src/sthread/tests/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOHEADER	tools/Makefile	/^AUTOHEADER = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	config/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/atomic_ops/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/atomic_ops/amd64/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/atomic_ops/i386/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/atomic_ops/sparc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/ia32/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/ia32/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/intel/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/intel/ia32/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/intel/ia32/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/intel/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/sparc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/atomic_ops/sparc/sys/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/common/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/common/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/fc/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/fc/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sm/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sm/smsh/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sm/smsh/lib/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sm/smsh/scripts/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sm/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sthread/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	src/sthread/tests/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
+AUTOMAKE	tools/Makefile	/^AUTOMAKE = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing automake-1.14$/;"	m
 AUTOMAKE_OPTIONS	Makefile	/^AUTOMAKE_OPTIONS = check-news dist-bzip2 readme-alpha$/;"	m
 AUTOMAKE_OPTIONS	config/Makefile	/^AUTOMAKE_OPTIONS = check-news dist-bzip2 readme-alpha$/;"	m
 AUTOMAKE_OPTIONS	src/Makefile	/^AUTOMAKE_OPTIONS = check-news dist-bzip2 readme-alpha$/;"	m
@@ -3796,45 +3796,45 @@ MAGIC1	src/common/regex2.h	70;"	d
 MAGIC2	src/common/regex2.h	157;"	d
 MAINTAINERCLEANFILES	Makefile	/^MAINTAINERCLEANFILES = \\$/;"	m
 MAINTAINERCLEANFILES	config/Makefile	/^MAINTAINERCLEANFILES = shore-config.h$/;"	m
-MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	config/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/atomic_ops/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/atomic_ops/amd64/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/atomic_ops/i386/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/atomic_ops/sparc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/ia32/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/ia32/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/intel/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/intel/ia32/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/intel/ia32/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/intel/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/sparc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/atomic_ops/sparc/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/common/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/common/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/fc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/fc/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sm/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sm/smsh/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sm/smsh/lib/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sm/smsh/scripts/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sm/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sthread/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	src/sthread/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
-MAKEINFO	tools/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	config/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/atomic_ops/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/atomic_ops/amd64/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/atomic_ops/i386/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/atomic_ops/sparc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/ia32/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/ia32/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/intel/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/intel/ia32/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/intel/ia32/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/intel/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/sparc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/atomic_ops/sparc/sys/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/common/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/common/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/fc/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/fc/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sm/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sm/smsh/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sm/smsh/lib/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sm/smsh/scripts/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sm/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sthread/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	src/sthread/tests/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
+MAKEINFO	tools/Makefile	/^MAKEINFO = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/missing makeinfo$/;"	m
 MAKEPAGE	src/sm/page.h	423;"	d
 MAKEPAGECODE	src/sm/page.h	454;"	d
 MAKERC	src/fc/w_rc.h	535;"	d
@@ -5761,13 +5761,13 @@ SIX	src/fc/w_base.h	/^        SIX,        \/* share with intention exclusive    
 SIZEOF_PTHREAD_T	config/shore-config.h	413;"	d
 SIZEOF_TOGGLE	src/sm/prologue.h	/^    enum        { SIZEOF_TOGGLE=32 };$/;"	e	enum:prologue_rc_t::__anon23
 SIZE_INFO	src/sm/smsh/sm_sizeof.cpp	53;"	d	file:
-SLOT_ACTIVE_COUNT	src/sm/log_core.cpp	/^enum { SLOT_ACTIVE_COUNT=5 };$/;"	e	enum:__anon91	file:
+SLOT_ACTIVE_COUNT	src/sm/log_core.cpp	/^enum { SLOT_ACTIVE_COUNT=1 }; \/\/charlie added change SLOT_ACTIVE_COUNT from 5 to 1$/;"	e	enum:__anon91	file:
 SLOT_ARRAY_SIZE	src/sm/log_core.cpp	/^enum { SLOT_ARRAY_SIZE=256 };$/;"	e	enum:__anon90	file:
 SLOT_AVAILABLE	src/sm/log_core.cpp	/^enum { SLOT_AVAILABLE=0,$/;"	e	enum:__anon92	file:
 SLOT_COUNT	src/sm/bf_htab.h	/^    static const int SLOT_COUNT = 3;$/;"	m	class:bf_core_m::htab
-SLOT_FINISHED	src/sm/log_core.cpp	/^       SLOT_FINISHED=-4$/;"	e	enum:__anon92	file:
-SLOT_PENDING	src/sm/log_core.cpp	/^       SLOT_PENDING=-2,$/;"	e	enum:__anon92	file:
-SLOT_UNUSED	src/sm/log_core.cpp	/^       SLOT_UNUSED=-1,$/;"	e	enum:__anon92	file:
+SLOT_FINISHED	src/sm/log_core.cpp	/^	SLOT_FINISHED=-4$/;"	e	enum:__anon92	file:
+SLOT_PENDING	src/sm/log_core.cpp	/^	SLOT_PENDING=-2,$/;"	e	enum:__anon92	file:
+SLOT_UNUSED	src/sm/log_core.cpp	/^	SLOT_UNUSED=-1,$/;"	e	enum:__anon92	file:
 SMFILE_C	src/sm/smfile.cpp	58;"	d	file:
 SMINDEX_C	src/sm/smindex.cpp	58;"	d	file:
 SMSTATS_H	src/sm/smstats.h	31;"	d
@@ -7160,8 +7160,8 @@ __stats	src/sm/xct.h	/^    sm_stats_info_t*             __stats; \/\/ allocated 
 __strtou8	src/fc/w_base.cpp	/^__strtou8(        $/;"	f	file:
 __toggle_data	src/sm/prologue.h	/^    long        __toggle_data[SIZEOF_TOGGLE\/sizeof(long)];$/;"	m	class:prologue_rc_t
 __umemcmp	src/common/umemcmp.h	/^inline int __umemcmp(const unsigned char* p, const unsigned char* q, int n)$/;"	f
-__unsafe_begin_acquire	src/sthread/mcs_lock.h	/^    qnode* __unsafe_begin_acquire(qnode* me) {$/;"	f	struct:mcs_lock
-__unsafe_end_acquire	src/sthread/mcs_lock.h	/^    void* __unsafe_end_acquire(qnode* me, qnode* pred) {$/;"	f	struct:mcs_lock
+__unsafe_begin_acquire	src/sthread/mcs_lock.h	/^	qnode* __unsafe_begin_acquire(qnode* me) {$/;"	f	struct:mcs_lock
+__unsafe_end_acquire	src/sthread/mcs_lock.h	/^	void* __unsafe_end_acquire(qnode* me, qnode* pred) {$/;"	f	struct:mcs_lock
 _abort	src/sm/xct.cpp	/^xct_t::_abort()$/;"	f	class:xct_t
 _abort_xct	src/sm/sm.cpp	/^ss_m::_abort_xct(sm_stats_info_t*&             _stats)$/;"	f	class:ss_m
 _aborted	src/sm/newsort.cpp	/^    bool        _aborted;       \/\/ because xct state changed, presumably$/;"	m	class:ssm_sort::run_mgr	file:
@@ -7174,6 +7174,7 @@ _acquire_block	src/fc/block_alloc.cpp	/^dynpool::mblock* dynpool::_acquire_block
 _acquire_block	src/fc/block_alloc.h	/^dynpool::mblock* object_cache<T,TF,M>::cache_pool::_acquire_block() {$/;"	f	class:object_cache::cache_pool
 _acquire_block	src/fc/tests/memblock.cpp	/^    virtual block*     _acquire_block() {$/;"	f	struct:test_block_pool
 _acquire_buffer_space	src/sm/log_core.cpp	/^void log_core::_acquire_buffer_space(insert_info* info, long recsize)$/;"	f	class:log_core
+_acquire_buffer_space_for_each	src/sm/log_core.cpp	/^void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)$/;"	f	class:log_core
 _acquire_count	src/fc/tests/memblock.cpp	/^    size_t        _acquire_count;$/;"	m	struct:test_block_pool	file:
 _activate	src/sm/bf_prefetch.h	/^    pthread_cond_t             _activate; \/\/ paired with _prefetch_mutex$/;"	m	class:bf_prefetch_thread_t
 _activate_cond	src/sm/bf.cpp	/^    pthread_cond_t              _activate_cond; \/\/ paired with _cleaner_mutex$/;"	m	class:bf_cleaner_thread_t	file:
@@ -7287,7 +7288,7 @@ _bound2_buf	src/sm/btcursor.h	/^    char*            _bound2_buf;$/;"	m	class:bt
 _bound2_tmp	src/sm/btcursor.h	/^    cvec_t            _bound2_tmp; \/\/ used if cond2 is not$/;"	m	class:bt_cursor_t
 _btcursor	src/sm/scan.h	/^    bt_cursor_t*         _btcursor;$/;"	m	class:scan_index_i
 _bucketArraySize	src/sm/sdesc.h	/^    w_base_t::uint4_t        _bucketArraySize;\/\/ # entries in the malloced array$/;"	m	class:sdesc_cache_t
-_buckets	src/sm/log_core.cpp	/^    bucket_map _buckets;$/;"	m	struct:histo	file:
+_buckets	src/sm/log_core.cpp	/^	bucket_map _buckets;$/;"	m	struct:histo	file:
 _buf	src/fc/w_defines.h	/^  char _buf[N+__alignof__(uintptr_t)];$/;"	m	class:allocaN
 _buf	src/fc/w_strstream.h	/^    char    *_buf;$/;"	m	class:w_ostrstream_buf
 _buf	src/fc/w_temp_alloc.h	/^        char *_buf;$/;"	m	struct:w_temp_alloc::ptr
@@ -7734,7 +7735,7 @@ _hdrfact	src/sm/sort_s.h	/^    factory_t*    _hdrfact;$/;"	m	class:ssm_sort::obj
 _hdrlen	src/sm/sort_s.h	/^    smsize_t      _hdrlen;$/;"	m	class:ssm_sort::object_t
 _hdrsize	src/sm/newsort.cpp	/^        smsize_t                 _hdrsize; \/\/ length of hdr if carrying object$/;"	m	struct:meta_header_t::_persistent	file:
 _height	src/sm/btree_bl.cpp	/^    uint2_t        _height;        \/\/ height of the tree$/;"	m	class:btsink_t	file:
-_held	src/sthread/mcs_lock.h	/^        mcs_lock* _held;$/;"	m	struct:mcs_lock::ext_qnode
+_held	src/sthread/mcs_lock.h	/^		mcs_lock* _held;$/;"	m	struct:mcs_lock::ext_qnode
 _held	src/sthread/sthread.h	/^        w_pthread_lock_t* _held;$/;"	m	struct:w_pthread_lock_t::ext_qnode
 _high	src/sm/newsort.cpp	/^    int         _high;$/;"	m	class:phase_mgr	file:
 _histo_ext_cache	src/sm/vol.h	/^    mutable histo_extent_cache     _histo_ext_cache;$/;"	m	class:vol_t
@@ -7955,7 +7956,7 @@ _locktablesize	src/sm/sm.cpp	/^option_t* ss_m::_locktablesize = NULL;$/;"	m	clas
 _locktablesize	src/sm/sm.h	/^    static option_t* _locktablesize;$/;"	m	class:ss_m
 _locs	src/sm/sort_s.h	/^    key_location_t* _locs;$/;"	m	class:ssm_sort::sort_keys_t
 _log	src/fc/errlog.h	/^    ErrLog*        _log;$/;"	m	class:logstream
-_log	src/sm/log_core.cpp	/^    log_core* _log;$/;"	m	class:flush_daemon_thread_t	file:
+_log	src/sm/log_core.cpp	/^	log_core* _log;$/;"	m	class:flush_daemon_thread_t	file:
 _log2_block_size	src/fc/block_alloc.h	/^    size_t		_log2_block_size;$/;"	m	struct:dynpool
 _log_buf	src/sm/xct.h	/^    logrec_t*                    _log_buf;$/;"	m	class:xct_t
 _log_bytes_ready	src/sm/xct.h	/^    fileoff_t                    _log_bytes_ready; \/\/ avail for insert\/reserv$/;"	m	class:xct_t
@@ -8074,10 +8075,10 @@ _next	src/fc/w_list.h	/^    w_link_t*            _next;$/;"	m	class:w_link_t
 _next	src/fc/w_list.h	/^    w_link_t*           _next;$/;"	m	class:w_list_i
 _next	src/fc/w_rc.h	/^    w_error_t const    *_next;$/;"	m	class:w_rc_i
 _next	src/sm/lock_x.h	/^    lock_head_t*     _next;$/;"	m	class:lock_head_t
-_next	src/sm/log_core.cpp	/^    mcs_lock::qnode* _next;$/;"	m	struct:hacked_qnode	file:
+_next	src/sm/log_core.cpp	/^	mcs_lock::qnode* _next;$/;"	m	struct:hacked_qnode	file:
 _next	src/sm/scan.cpp	/^scan_file_i::_next(pin_i*& pin_ptr, smsize_t start, bool& eof)$/;"	f	class:scan_file_i
 _next	src/sm/xct.cpp	/^    xct_link*	_next;$/;"	m	struct:xct_link	file:
-_next	src/sthread/mcs_lock.h	/^        qnode* _next;$/;"	m	struct:mcs_lock::qnode
+_next	src/sthread/mcs_lock.h	/^		qnode* _next;$/;"	m	struct:mcs_lock::qnode
 _next_free	src/sm/bf_s.h	/^    bfcb_t*     _next_free;    \/\/ used by the (singly-linked) freelist$/;"	m	class:bfcb_t
 _next_id	src/sthread/sthread.cpp	/^w_base_t::uint4_t       sthread_t::_next_id = MAIN_THREAD_ID;$/;"	m	class:sthread_t	file:
 _next_id	src/sthread/sthread.h	/^    static uint4_t        _next_id;    \/\/ unique id generator$/;"	m	class:sthread_t
@@ -8093,7 +8094,7 @@ _nkc	src/sm/btcursor.h	/^    int                _nkc;$/;"	m	class:bt_cursor_t
 _nkeys	src/sm/newsort.cpp	/^        uint1_t                _nkeys;   \/\/1 byte$/;"	m	struct:meta_header_t::_persistent	file:
 _nkeys	src/sm/sort_s.h	/^    int        _nkeys;        \/\/ constructor $/;"	m	class:ssm_sort::sort_keys_t
 _noblock	src/sm/lock_x.h	/^    bool             _noblock;$/;"	m	class:xct_lock_info_t
-_node	src/sthread/mcs_lock.h	/^      qnode _node;$/;"	m	struct:mcs_lock::ext_qnode
+_node	src/sthread/mcs_lock.h	/^		qnode _node;$/;"	m	struct:mcs_lock::ext_qnode
 _node_state	src/sm/xct.cpp	/^    int		_node_state;$/;"	m	struct:xct_link	file:
 _none	src/fc/w_debug.h	/^        enum { _all = 0x1, _none = 0x2 };$/;"	e	enum:w_debug::__anon102
 _none	src/sm/newsort.cpp	/^} _none;$/;"	v	typeref:class:no_factory_t
@@ -8172,7 +8173,7 @@ _owner	src/sm/xct.cpp	/^    xct_t*	_owner;$/;"	m	struct:xct_link	file:
 _p	src/sm/newsort.cpp	/^    int*        _p; \/\/ penultimate level$/;"	m	class:fib_t	file:
 _p	src/sm/sm_escalation.h	/^    w_base_t::int4_t _p;$/;"	m	class:sm_escalation_t
 _p1	src/sm/newsort.cpp	/^    pin_i                  _p1;$/;"	m	class:blob	file:
-_padding	src/sthread/mcs_lock.h	/^	int _padding;$/;"	m	struct:mcs_lock::qnode
+_padding	src/sthread/mcs_lock.h	/^		int _padding;$/;"	m	struct:mcs_lock::qnode
 _padding2	src/sm/log_core.h	/^    long _padding2[16];$/;"	m	class:log_core
 _padding3	src/sm/log_core.h	/^    long _padding3[16];$/;"	m	class:log_core
 _padding4	src/sm/log_core.h	/^    long _padding4[16];$/;"	m	class:log_core
@@ -8467,9 +8468,9 @@ _sli_status	src/sm/lock_x.h	/^    sli_status_t		_sli_status;$/;"	m	class:lock_re
 _slot	src/sm/btcursor.h	/^    int                _slot;$/;"	m	class:bt_cursor_t
 _slot	src/sm/btree_bl.cpp	/^    slotid_t        _slot[20];        \/\/ current slot in each page of the path$/;"	m	class:btsink_t	file:
 _slot	src/sm/newsort.cpp	/^        slotid_t               _slot;    \/\/2 bytes$/;"	m	struct:meta_header_t::_persistent	file:
-_slot_array	src/sm/log_core.cpp	/^    insert_info* _slot_array;$/;"	m	struct:log_core::insert_info_array	file:
+_slot_array	src/sm/log_core.cpp	/^	insert_info* _slot_array;$/;"	m	struct:log_core::insert_info_array	file:
 _slot_array	src/sm/log_core.h	/^    insert_info_array* _slot_array;$/;"	m	class:log_core
-_slot_mark	src/sm/log_core.cpp	/^    long _slot_mark;$/;"	m	struct:log_core::insert_info_array	file:
+_slot_mark	src/sm/log_core.cpp	/^	long _slot_mark;$/;"	m	struct:log_core::insert_info_array	file:
 _slots	src/sm/bf_htab.h	/^        bfcb_t* volatile      _slots[SLOT_COUNT];$/;"	m	class:bf_core_m::htab::bucket
 _slots	src/sm/log_core.h	/^    insert_info* volatile* _slots;$/;"	m	class:log_core
 _slots	src/sm/page_s.h	/^    } _slots;$/;"	m	class:page_s	typeref:union:page_s::slot_array
@@ -8527,7 +8528,7 @@ _start_terminate_lock	src/sthread/sthread.h	/^    pthread_mutex_t*            _s
 _state	src/fc/rand48.h	/^    unsigned48_t _state;$/;"	m	class:rand48
 _state	src/fc/w_rand.h	/^    uint32_t _state;$/;"	m	struct:w_rand
 _state	src/sm/lock_x.h	/^    lock_base_t::status_t  _state;        \/\/ lock state$/;"	m	class:lock_request_t
-_state	src/sm/log_core.cpp	/^    uint64_t _state;$/;"	m	struct:hacked_qnode	file:
+_state	src/sm/log_core.cpp	/^	uint64_t _state;$/;"	m	struct:hacked_qnode	file:
 _state	src/sm/xct.h	/^        state_t                   _state;$/;"	m	struct:xct_t::xct_core
 _stats	src/sm/rtree.cpp	/^rtree_m::_stats($/;"	f	class:rtree_m
 _status	src/sm/bf_prefetch.h	/^        prefetch_status_t       _status; \/\/ indicates request satisfied$/;"	m	struct:bf_prefetch_thread_t::frame_info
@@ -8563,7 +8564,7 @@ _table_lock	src/sm/device.h	/^    static queue_based_lock_t             _table_l
 _tail	src/fc/mem_block.h	/^    block*        _tail;$/;"	m	struct:memory_block::block_list
 _tail	src/fc/w_list.h	/^    w_link_t            _tail;$/;"	m	class:w_list_base_t
 _tail	src/sm/xct.cpp	/^    xct_link* volatile _tail;$/;"	m	struct:xct_list	file:
-_tail	src/sthread/mcs_lock.h	/^    qnode* volatile _tail;$/;"	m	struct:mcs_lock
+_tail	src/sthread/mcs_lock.h	/^	qnode* volatile _tail;$/;"	m	struct:mcs_lock
 _tape_number	src/sm/newsort.cpp	/^    int              _tape_number;$/;"	m	class:tape_t	file:
 _tapes	src/sm/newsort.cpp	/^    tape_t*            _tapes;$/;"	m	class:ssm_sort::run_mgr	file:
 _target	src/sm/newsort.cpp	/^    int         _target; \/\/ target tape# for output$/;"	m	class:phase_mgr	file:
@@ -8598,7 +8599,7 @@ _total	src/sm/newsort.cpp	/^    int                _total;$/;"	m	class:fib_t	fil
 _total	src/sm/newsort.cpp	/^    int         _total; \/\/ total # runs in the whole mess$/;"	m	class:phase_mgr	file:
 _total_bytes	src/sthread/tests/ioperf.cpp	/^    int         _total_bytes;$/;"	m	class:io_thread_t	file:
 _total_count	src/common/latch.h	/^    w_base_t::uint4_t            _total_count;$/;"	m	class:latch_t
-_total_slots	src/sm/log_core.cpp	/^    long _total_slots;$/;"	m	struct:log_core::insert_info_array	file:
+_total_slots	src/sm/log_core.cpp	/^	long _total_slots;$/;"	m	struct:log_core::insert_info_array	file:
 _trace_cnt	src/fc/w_error.h	/^    uint4_t                      _trace_cnt;$/;"	m	class:w_error_t
 _trace_file	src/fc/w_error.h	/^    const char*                  _trace_file[max_trace];$/;"	m	class:w_error_t
 _trace_level	src/fc/w_debug.h	/^        int            _trace_level;$/;"	m	class:w_debug
@@ -8688,7 +8689,7 @@ _wait_request	src/sm/lock_x.h	/^    lock_request_t* _wait_request;  \/\/ lock wa
 _waiters_cond	src/sm/xct.h	/^        pthread_cond_t            _waiters_cond;  \/\/ paired with _waiters_mutex$/;"	m	struct:xct_t::xct_core
 _waiters_mutex	src/sm/xct.h	/^        mutable pthread_mutex_t   _waiters_mutex;  \/\/ paired with _waiters_cond$/;"	m	struct:xct_t::xct_core
 _waiting	src/sm/smthread.h	/^    bool            _waiting;$/;"	m	class:smthread_t
-_waiting	src/sthread/mcs_lock.h	/^        int _waiting;$/;"	m	struct:mcs_lock::qnode
+_waiting	src/sthread/mcs_lock.h	/^		int _waiting;$/;"	m	struct:mcs_lock::qnode
 _waiting_for_flush	src/sm/log_core.h	/^    long volatile        _waiting_for_flush;$/;"	m	class:log_core
 _waiting_for_space	src/sm/log.h	/^    bool                    _waiting_for_space; $/;"	m	class:log_m
 _waiting_for_space	src/sm/log_core.h	/^    long volatile        _waiting_for_space; $/;"	m	class:log_core
@@ -8731,162 +8732,162 @@ abort_xct	src/sm/sm.cpp	/^ss_m::abort_xct(sm_stats_info_t*&             _stats)$
 abort_xct_cnt	src/sm/sm_stats_t_struct_gen.h	/^ w_base_t::base_stat_t abort_xct_cnt;$/;"	v
 abortable_xct	src/sm/prologue.h	/^        abortable_xct   \/\/ active or prepared $/;"	e	enum:prologue_rc_t::xct_state_t
 aborttest	src/sm/crash.cpp	/^aborttest() $/;"	f
-abs_builddir	Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_builddir	config/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/config$/;"	m
-abs_builddir	src/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src$/;"	m
-abs_builddir	src/atomic_ops/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
-abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
-abs_builddir	src/atomic_ops/atomic_ops/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops$/;"	m
-abs_builddir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/amd64$/;"	m
-abs_builddir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/i386$/;"	m
-abs_builddir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/sparc$/;"	m
-abs_builddir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/sparcv9$/;"	m
-abs_builddir	src/atomic_ops/ia32/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
-abs_builddir	src/atomic_ops/ia32/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
-abs_builddir	src/atomic_ops/intel/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
-abs_builddir	src/atomic_ops/intel/ia32/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
-abs_builddir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
-abs_builddir	src/atomic_ops/intel/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
-abs_builddir	src/atomic_ops/sparc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
-abs_builddir	src/atomic_ops/sparc/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
-abs_builddir	src/common/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/common$/;"	m
-abs_builddir	src/common/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/common\/tests$/;"	m
-abs_builddir	src/fc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/fc$/;"	m
-abs_builddir	src/fc/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/fc\/tests$/;"	m
-abs_builddir	src/sm/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm$/;"	m
-abs_builddir	src/sm/smsh/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/smsh$/;"	m
-abs_builddir	src/sm/smsh/lib/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/smsh\/lib$/;"	m
-abs_builddir	src/sm/smsh/scripts/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/smsh\/scripts$/;"	m
-abs_builddir	src/sm/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/tests$/;"	m
-abs_builddir	src/sthread/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sthread$/;"	m
-abs_builddir	src/sthread/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/src\/sthread\/tests$/;"	m
-abs_builddir	tools/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/shore-mt\/tools$/;"	m
-abs_srcdir	Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_srcdir	config/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/config$/;"	m
-abs_srcdir	src/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src$/;"	m
-abs_srcdir	src/atomic_ops/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
-abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
-abs_srcdir	src/atomic_ops/atomic_ops/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops$/;"	m
-abs_srcdir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/amd64$/;"	m
-abs_srcdir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/i386$/;"	m
-abs_srcdir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/sparc$/;"	m
-abs_srcdir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/atomic_ops\/sparcv9$/;"	m
-abs_srcdir	src/atomic_ops/ia32/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
-abs_srcdir	src/atomic_ops/ia32/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
-abs_srcdir	src/atomic_ops/intel/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
-abs_srcdir	src/atomic_ops/intel/ia32/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
-abs_srcdir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
-abs_srcdir	src/atomic_ops/intel/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
-abs_srcdir	src/atomic_ops/sparc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
-abs_srcdir	src/atomic_ops/sparc/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
-abs_srcdir	src/common/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/common$/;"	m
-abs_srcdir	src/common/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/common\/tests$/;"	m
-abs_srcdir	src/fc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/fc$/;"	m
-abs_srcdir	src/fc/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/fc\/tests$/;"	m
-abs_srcdir	src/sm/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm$/;"	m
-abs_srcdir	src/sm/smsh/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/smsh$/;"	m
-abs_srcdir	src/sm/smsh/lib/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/smsh\/lib$/;"	m
-abs_srcdir	src/sm/smsh/scripts/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/smsh\/scripts$/;"	m
-abs_srcdir	src/sm/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sm\/tests$/;"	m
-abs_srcdir	src/sthread/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sthread$/;"	m
-abs_srcdir	src/sthread/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/src\/sthread\/tests$/;"	m
-abs_srcdir	tools/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/shore-mt\/tools$/;"	m
-abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	config/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/atomic_ops/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/ia32/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/ia32/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/intel/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/intel/ia32/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/intel/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/sparc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/atomic_ops/sparc/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/common/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/common/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/fc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/fc/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sm/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sm/smsh/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sm/smsh/lib/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sm/smsh/scripts/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sm/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sthread/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	src/sthread/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_builddir	tools/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	config/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/atomic_ops/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/ia32/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/ia32/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/intel/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/intel/ia32/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/intel/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/sparc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/atomic_ops/sparc/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/common/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/common/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/fc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/fc/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sm/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sm/smsh/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sm/smsh/lib/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sm/smsh/scripts/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sm/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sthread/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	src/sthread/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
-abs_top_srcdir	tools/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/shore-mt$/;"	m
+abs_builddir	Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_builddir	config/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config$/;"	m
+abs_builddir	src/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src$/;"	m
+abs_builddir	src/atomic_ops/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
+abs_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
+abs_builddir	src/atomic_ops/atomic_ops/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops$/;"	m
+abs_builddir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/amd64$/;"	m
+abs_builddir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/i386$/;"	m
+abs_builddir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/sparc$/;"	m
+abs_builddir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/sparcv9$/;"	m
+abs_builddir	src/atomic_ops/ia32/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
+abs_builddir	src/atomic_ops/ia32/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
+abs_builddir	src/atomic_ops/intel/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
+abs_builddir	src/atomic_ops/intel/ia32/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
+abs_builddir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
+abs_builddir	src/atomic_ops/intel/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
+abs_builddir	src/atomic_ops/sparc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
+abs_builddir	src/atomic_ops/sparc/sys/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
+abs_builddir	src/common/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/common$/;"	m
+abs_builddir	src/common/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/common\/tests$/;"	m
+abs_builddir	src/fc/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/fc$/;"	m
+abs_builddir	src/fc/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/fc\/tests$/;"	m
+abs_builddir	src/sm/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm$/;"	m
+abs_builddir	src/sm/smsh/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/smsh$/;"	m
+abs_builddir	src/sm/smsh/lib/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/smsh\/lib$/;"	m
+abs_builddir	src/sm/smsh/scripts/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/smsh\/scripts$/;"	m
+abs_builddir	src/sm/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/tests$/;"	m
+abs_builddir	src/sthread/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sthread$/;"	m
+abs_builddir	src/sthread/tests/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sthread\/tests$/;"	m
+abs_builddir	tools/Makefile	/^abs_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/tools$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_srcdir	config/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config$/;"	m
+abs_srcdir	src/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src$/;"	m
+abs_srcdir	src/atomic_ops/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
+abs_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
+abs_srcdir	src/atomic_ops/atomic_ops/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops$/;"	m
+abs_srcdir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/amd64$/;"	m
+abs_srcdir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/i386$/;"	m
+abs_srcdir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/sparc$/;"	m
+abs_srcdir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/atomic_ops\/sparcv9$/;"	m
+abs_srcdir	src/atomic_ops/ia32/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
+abs_srcdir	src/atomic_ops/ia32/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
+abs_srcdir	src/atomic_ops/intel/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel$/;"	m
+abs_srcdir	src/atomic_ops/intel/ia32/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32$/;"	m
+abs_srcdir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/ia32\/sys$/;"	m
+abs_srcdir	src/atomic_ops/intel/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/intel\/sys$/;"	m
+abs_srcdir	src/atomic_ops/sparc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc$/;"	m
+abs_srcdir	src/atomic_ops/sparc/sys/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/atomic_ops\/asm_linkage\/usr\/src\/uts\/sparc\/sys$/;"	m
+abs_srcdir	src/common/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/common$/;"	m
+abs_srcdir	src/common/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/common\/tests$/;"	m
+abs_srcdir	src/fc/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/fc$/;"	m
+abs_srcdir	src/fc/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/fc\/tests$/;"	m
+abs_srcdir	src/sm/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm$/;"	m
+abs_srcdir	src/sm/smsh/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/smsh$/;"	m
+abs_srcdir	src/sm/smsh/lib/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/smsh\/lib$/;"	m
+abs_srcdir	src/sm/smsh/scripts/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/smsh\/scripts$/;"	m
+abs_srcdir	src/sm/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sm\/tests$/;"	m
+abs_srcdir	src/sthread/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sthread$/;"	m
+abs_srcdir	src/sthread/tests/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/src\/sthread\/tests$/;"	m
+abs_srcdir	tools/Makefile	/^abs_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/tools$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	config/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/atomic_ops/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/ia32/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/ia32/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/intel/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/intel/ia32/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/intel/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/sparc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/atomic_ops/sparc/sys/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/common/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/common/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/fc/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/fc/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sm/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sm/smsh/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sm/smsh/lib/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sm/smsh/scripts/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sm/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sthread/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	src/sthread/tests/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_builddir	tools/Makefile	/^abs_top_builddir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	config/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/atomic_ops/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/atomic_ops/amd64/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/atomic_ops/i386/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/atomic_ops/sparc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/ia32/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/ia32/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/intel/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/intel/ia32/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/intel/ia32/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/intel/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/sparc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/atomic_ops/sparc/sys/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/common/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/common/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/fc/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/fc/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sm/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sm/smsh/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sm/smsh/lib/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sm/smsh/scripts/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sm/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sthread/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	src/sthread/tests/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
+abs_top_srcdir	tools/Makefile	/^abs_top_srcdir = \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt$/;"	m
 ac	src/sm/smsh/tcl_thread.h	/^    int                         ac;$/;"	m	class:tcl_thread_t
 ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
 ac_ct_AR	config/Makefile	/^ac_ct_AR = ar$/;"	m
@@ -9041,8 +9042,8 @@ acquire	src/fc/mem_block.cpp	/^void* block_list::acquire(size_t chip_size, size_
 acquire	src/sm/histo.cpp	/^histoid_t::acquire(const stid_t& s) $/;"	f	class:histoid_t
 acquire	src/sm/lock_x.h	/^        rc_t acquire() {$/;"	f	struct:lock_head_t::my_lock
 acquire	src/sm/page.cpp	/^page_s::space_t::acquire(int amt, int slot_bytes, xct_t* xd,$/;"	f	class:page_s::space_t
-acquire	src/sthread/mcs_lock.h	/^    void* acquire(ext_qnode* me) {$/;"	f	struct:mcs_lock
-acquire	src/sthread/mcs_lock.h	/^    void* acquire(qnode* me) {$/;"	f	struct:mcs_lock
+acquire	src/sthread/mcs_lock.h	/^	void* acquire(ext_qnode* me) {$/;"	f	struct:mcs_lock
+acquire	src/sthread/mcs_lock.h	/^	void* acquire(qnode* me) {$/;"	f	struct:mcs_lock
 acquire	src/sthread/sthread.h	/^        void acquire() { _lock->acquire_read(); }$/;"	f	struct:occ_rwlock::occ_rlock
 acquire	src/sthread/sthread.h	/^        void acquire() { _lock->acquire_write(); }$/;"	f	struct:occ_rwlock::occ_wlock
 acquire	src/sthread/sthread.h	/^    void acquire() {$/;"	f	struct:tatas_lock
@@ -9156,7 +9157,7 @@ alloc_sdesc_cache	src/sm/smthread.cpp	/^smthread_t::alloc_sdesc_cache()$/;"	f	cl
 alloc_store	src/sm/vol.cpp	/^vol_t::alloc_store(snum_t snum, int eff, store_flag_t flags)$/;"	f	class:vol_t
 allocaN	src/fc/w_defines.h	/^class allocaN {$/;"	c
 allocate	src/fc/w_temp_alloc.h	/^        T* allocate(size_t n, void* =0) {$/;"	f	struct:w_temp_alloc::allocator
-allocate	src/sm/log_core.cpp	/^    insert_info* allocate(bool be_patient=true) $/;"	f	struct:log_core::insert_info_array
+allocate	src/sm/log_core.cpp	/^	insert_info* allocate(bool be_patient=true) $/;"	f	struct:log_core::insert_info_array
 allocator	src/fc/w_temp_alloc.h	/^        allocator() { }$/;"	f	struct:w_temp_alloc::allocator
 allocator	src/fc/w_temp_alloc.h	/^        allocator(allocator const &) { }$/;"	f	struct:w_temp_alloc::allocator
 allocator	src/fc/w_temp_alloc.h	/^        allocator(allocator<U> const &) { }$/;"	f	struct:w_temp_alloc::allocator
@@ -11114,8 +11115,8 @@ attach_thread	src/sm/xct.cpp	/^xct_t::attach_thread() $/;"	f	class:xct_t
 attach_update_thread	src/sm/xct.cpp	/^xct_t::attach_update_thread()$/;"	f	class:xct_t
 attach_xct	src/sm/sm.h	/^    static void           attach_xct(xct_t *x) { me()->attach_xct(x); }$/;"	f	class:ss_m
 attach_xct	src/sm/smthread.cpp	/^smthread_t::attach_xct(xct_t* x)$/;"	f	class:smthread_t
-attempt	src/sthread/mcs_lock.h	/^    bool attempt(ext_qnode* me) {$/;"	f	struct:mcs_lock
-attempt	src/sthread/mcs_lock.h	/^    bool attempt(qnode* me) {$/;"	f	struct:mcs_lock
+attempt	src/sthread/mcs_lock.h	/^	bool attempt(ext_qnode* me) {$/;"	f	struct:mcs_lock
+attempt	src/sthread/mcs_lock.h	/^	bool attempt(qnode* me) {$/;"	f	struct:mcs_lock
 attempt	src/sthread/sthread.h	/^    bool attempt(ext_qnode & me) {$/;"	f	struct:w_pthread_lock_t
 attempt	src/sthread/sthread.h	/^    bool attempt(ext_qnode* me) {$/;"	f	struct:w_pthread_lock_t
 attempt_lock	src/fc/atomic_container.h	/^    bool attempt_lock() {$/;"	f	class:atomic_container
@@ -11592,7 +11593,7 @@ bucket_9_min_free	src/sm/page_h.h	/^    bucket_9_min_free = percent_57,$/;"	e	en
 bucket_change	src/sm/histo.cpp	/^histoid_t::bucket_change($/;"	f	class:histoid_t
 bucket_for	src/fc/w_hash.h	/^w_base_t::uint4_t w_hash_t<T,LOCK, K>::bucket_for(K const &k) const {$/;"	f	class:w_hash_t
 bucket_for	src/fc/w_hash.h	/^w_base_t::uint4_t w_hash_t<T,LOCK, K>::bucket_for(T const* t) const {$/;"	f	class:w_hash_t
-bucket_map	src/sm/log_core.cpp	/^    typedef std::map<int, long> bucket_map;$/;"	t	struct:histo	file:
+bucket_map	src/sm/log_core.cpp	/^	typedef std::map<int, long> bucket_map;$/;"	t	struct:histo	file:
 bucket_t	src/sm/lock_core.cpp	/^    NORET                         bucket_t() :$/;"	f	class:bucket_t
 bucket_t	src/sm/lock_core.cpp	/^class bucket_t {$/;"	c	file:
 buckets_in_table	src/sm/histo.cpp	/^        buckets_in_table = 11,$/;"	e	enum:__anon50	file:
@@ -12290,7 +12291,7 @@ corrupt	src/sm/logrec.cpp	/^logrec_t::corrupt()$/;"	f	class:logrec_t
 count	src/common/latch.cpp	/^    static int count(holder_list holders, latch_t const* l) $/;"	f	class:holder_search
 count	src/common/vec_t.h	/^    int count() const {return _cnt;}$/;"	f	class:cvec_t
 count	src/sm/bf_core.h	/^        int count() const { return _count; }$/;"	f	class:bfcb_unused_list
-count	src/sm/log_core.cpp	/^    long count;$/;"	m	struct:log_core::insert_info	file:
+count	src/sm/log_core.cpp	/^	long count;$/;"	m	struct:log_core::insert_info	file:
 count	src/sm/logrec.cpp	/^    extnum_t            count;$/;"	m	struct:create_ext_list_t	file:
 count	src/sm/logrec.cpp	/^    extnum_t        count;$/;"	m	struct:free_ext_list_t	file:
 count	src/sm/logrec.h	/^    uint4_t              count;$/;"	m	struct:chkpt_bf_tab_t
@@ -13190,7 +13191,7 @@ errlogtest_OBJECTS	src/fc/tests/Makefile	/^errlogtest_OBJECTS = $(am_errlogtest_
 errlogtest_SOURCES	src/fc/tests/Makefile	/^errlogtest_SOURCES = errlogtest.cpp$/;"	m
 error	src/common/regcomp.cpp	/^    int error;        \/* has an error been seen? *\/$/;"	m	struct:parse	file:
 error	src/fc/w_input.cpp	/^        _end, error, no_hex, no_state };$/;"	e	enum:states	file:
-error	src/sm/log_core.cpp	/^    long error;$/;"	m	struct:log_core::insert_info	file:
+error	src/sm/log_core.cpp	/^	long error;$/;"	m	struct:log_core::insert_info	file:
 error	src/sthread/tests/except.cpp	/^	int	error;$/;"	m	class:MyException	file:
 error	src/sthread/tests/ioperf.cpp	/^    bool         error() const { return _error;} $/;"	f	class:io_thread_t
 error_code	src/sm/scan.h	/^    const rc_t &     error_code() const { return _error_occurred; }$/;"	f	class:scan_index_i
@@ -13294,7 +13295,7 @@ ext_log_info_t	src/sm/logrec.h	/^class      ext_log_info_t {$/;"	c
 ext_lookup_hits	src/sm/sm_stats_t_struct_gen.h	/^ w_base_t::base_stat_t ext_lookup_hits;$/;"	v
 ext_lookup_misses	src/sm/sm_stats_t_struct_gen.h	/^ w_base_t::base_stat_t ext_lookup_misses;$/;"	v
 ext_map_sz_in_bytes	src/sm/sm_base.h	/^        ext_map_sz_in_bytes = ((ext_sz + 7) \/ 8),$/;"	e	enum:smlevel_0::__anon28
-ext_qnode	src/sthread/mcs_lock.h	/^    struct ext_qnode {$/;"	s	struct:mcs_lock
+ext_qnode	src/sthread/mcs_lock.h	/^	struct ext_qnode {$/;"	s	struct:mcs_lock
 ext_qnode	src/sthread/sthread.h	/^    struct ext_qnode {$/;"	s	struct:w_pthread_lock_t
 ext_qnode_ptr	src/sthread/sthread.h	/^    typedef ext_qnode volatile* ext_qnode_ptr;$/;"	t	struct:w_pthread_lock_t
 ext_size	src/sm/vol.h	/^    extnum_t         ext_size() const { return _ext_size; } $/;"	f	class:volhdr_t
@@ -13649,7 +13650,7 @@ flush	src/sm/partition.cpp	/^partition_t::flush(int fd)$/;"	f	class:partition_t
 flush_all	src/sm/log.h	/^    rc_t    flush_all(bool block=true) { $/;"	f	class:log_m
 flush_and_setprio	src/fc/errlog.cpp	/^flush_and_setprio(ostream& o, LogPriority p)$/;"	f
 flush_daemon	src/sm/log_core.cpp	/^void log_core::flush_daemon() $/;"	f	class:log_core
-flush_daemon_thread_t	src/sm/log_core.cpp	/^    flush_daemon_thread_t(log_core* log) : $/;"	f	class:flush_daemon_thread_t
+flush_daemon_thread_t	src/sm/log_core.cpp	/^	flush_daemon_thread_t(log_core* log) : $/;"	f	class:flush_daemon_thread_t
 flush_daemon_thread_t	src/sm/log_core.cpp	/^class flush_daemon_thread_t : public smthread_t {$/;"	c	file:
 flush_daemon_work	src/sm/log_core.cpp	/^lsn_t log_core::flush_daemon_work(lsn_t old_mark) $/;"	f	class:log_core
 flush_one_rec	src/sm/sort.cpp	/^sort_stream_i::flush_one_rec(const record_t *rec, rid_t& rid, $/;"	f	class:sort_stream_i
@@ -13987,7 +13988,7 @@ give_buf	src/sm/newsort.cpp	/^limited_space::give_buf(smsize_t amt, char *where)
 give_logbuf	src/sm/xct.cpp	/^xct_t::give_logbuf(logrec_t* l, const page_p *page)$/;"	f	class:xct_t
 give_stats	src/sm/xct.h	/^    void                        give_stats(sm_stats_info_t* s) {$/;"	f	class:xct_t
 global_fini	src/fc/tls.cpp	/^void tls_manager::global_fini() {$/;"	f	class:tls_manager
-global_histo	src/sm/log_core.cpp	/^    static histo global_histo;$/;"	m	struct:histo	file:
+global_histo	src/sm/log_core.cpp	/^	static histo global_histo;$/;"	m	struct:histo	file:
 global_histo	src/sm/log_core.cpp	/^histo histo::global_histo;$/;"	m	class:histo	file:
 global_histo_lock	src/sm/log_core.cpp	/^pthread_mutex_t global_histo_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
 global_init	src/fc/tls.cpp	/^void tls_manager::global_init() {$/;"	f	class:tls_manager
@@ -14376,7 +14377,7 @@ host_vendor	src/sthread/Makefile	/^host_vendor = unknown$/;"	m
 host_vendor	src/sthread/tests/Makefile	/^host_vendor = unknown$/;"	m
 host_vendor	tools/Makefile	/^host_vendor = unknown$/;"	m
 hotbit	src/sm/bf_s.h	/^    int4_t      hotbit() const { return _hotbit; }$/;"	f	class:bfcb_t
-hq	src/sm/log_core.cpp	/^    hacked_qnode hq;$/;"	m	union:__anon89	file:
+hq	src/sm/log_core.cpp	/^	hacked_qnode hq;$/;"	m	union:__anon89	file:
 hrtime_t	src/fc/gethrtime.h	/^typedef long hrtime_t;$/;"	t
 hrtime_t	src/fc/gethrtime.h	/^typedef long long hrtime_t;$/;"	t
 htab	src/sm/bf_htab.h	/^    NORET   htab(int i) : _size(i) , _avg(0), _max_limit(0)$/;"	f	class:bf_core_m::htab
@@ -14584,7 +14585,7 @@ incr_pin_count	src/sm/smthread.h	/^smthread_t::incr_pin_count(int amount) $/;"	f
 index	src/sm/partition.h	/^    partition_index_t  index() const {  return _index; }$/;"	f	class:partition_t
 index_key	src/sm/newsort.cpp	/^    const sm_skey_t&         index_key() const { return _index_key; }$/;"	f	class:meta_header_t
 index_key_non_const	src/sm/newsort.cpp	/^    sm_skey_t&               index_key_non_const() { return _index_key; }$/;"	f	class:meta_header_t
-indexof	src/sm/log_core.cpp	/^    long indexof(insert_info const* info) const {$/;"	f	struct:log_core::insert_info_array
+indexof	src/sm/log_core.cpp	/^	long indexof(insert_info const* info) const {$/;"	f	struct:log_core::insert_info_array
 indirect_ref	src/sm/lgrec.h	/^    const lg_tag_indirect_s& indirect_ref() const {return _iref;}$/;"	f	class:lg_tag_indirect_h
 indirect_root	src/sm/lgrec.h	/^    shpid_t       indirect_root;$/;"	m	struct:lg_tag_indirect_s
 indirect_type	src/sm/lgrec.h	/^inline recflags_t lg_tag_indirect_h::indirect_type(smsize_t page_count)$/;"	f	class:lg_tag_indirect_h
@@ -14719,52 +14720,52 @@ insert	src/sm/xct.cpp	/^void xct_list::insert(xct_link* xd) {$/;"	f	class:xct_li
 insert	src/sm/zkeyed.cpp	/^zkeyed_p::insert($/;"	f	class:zkeyed_p
 insert_existing_unsafe	src/sm/xct.cpp	/^void xct_list::insert_existing_unsafe(xct_t* owner) {$/;"	f	class:xct_list
 insert_expand	src/sm/page.cpp	/^page_p::insert_expand(slotid_t idx, int cnt, const cvec_t *vec, $/;"	f	class:page_p
-insert_info	src/sm/log_core.cpp	/^    insert_info() : count(SLOT_UNUSED), error(0) { }$/;"	f	struct:log_core::insert_info
+insert_info	src/sm/log_core.cpp	/^	insert_info() : count(SLOT_UNUSED), error(0) { }$/;"	f	struct:log_core::insert_info
 insert_info	src/sm/log_core.cpp	/^struct log_core::insert_info {$/;"	s	class:log_core	file:
-insert_info_array	src/sm/log_core.cpp	/^    insert_info_array(long count=16)$/;"	f	struct:log_core::insert_info_array
+insert_info_array	src/sm/log_core.cpp	/^	insert_info_array(long count=16)$/;"	f	struct:log_core::insert_info_array
 insert_info_array	src/sm/log_core.cpp	/^struct log_core::insert_info_array {$/;"	s	class:log_core	file:
 insert_names	src/fc/vtable.h	/^    void insert_names() {$/;"	f	class:vtable_func
 inserts	src/sm/tests/htab.cpp	/^        int    inserts;$/;"	m	struct:htab_tester::pidinfo	file:
 install	src/sm/histo.cpp	/^histoid_t::install(const pginfo_t &info)$/;"	f	class:histoid_t
-install_sh	Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	config/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/atomic_ops/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/atomic_ops/amd64/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/atomic_ops/i386/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/atomic_ops/sparc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/ia32/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/ia32/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/intel/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/intel/ia32/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/intel/ia32/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/intel/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/sparc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/atomic_ops/sparc/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/common/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/common/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/fc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/fc/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sm/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sm/smsh/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sm/smsh/lib/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sm/smsh/scripts/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sm/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sthread/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	src/sthread/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
-install_sh	tools/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/shore-mt\/config\/install-sh$/;"	m
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	config/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/ia32/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/intel/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/sparc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/asm_linkage/usr/src/uts/sparc/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/atomic_ops/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/atomic_ops/amd64/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/atomic_ops/i386/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/atomic_ops/sparc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/atomic_ops/sparcv9/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/ia32/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/ia32/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/intel/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/intel/ia32/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/intel/ia32/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/intel/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/sparc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/atomic_ops/sparc/sys/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/common/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/common/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/fc/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/fc/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sm/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sm/smsh/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sm/smsh/lib/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sm/smsh/scripts/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sm/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sthread/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	src/sthread/tests/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
+install_sh	tools/Makefile	/^install_sh = ${SHELL} \/home\/dcslab\/charlie\/ELEDA\/charlie\/eleda-shore-mt\/config\/install-sh$/;"	m
 install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
 install_sh_DATA	config/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
 install_sh_DATA	src/Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
@@ -15075,7 +15076,7 @@ is_mine	src/sm/bf_core.cpp	/^bf_core_m::is_mine(const bfcb_t* p) const$/;"	f	cla
 is_mine	src/sm/lock_x.h	/^        bool is_mine() { return _holder == me(); }$/;"	f	struct:lock_head_t::my_lock
 is_mine	src/sm/page.cpp	/^page_p::is_mine() const$/;"	f	class:page_p
 is_mine	src/sm/pin.cpp	/^pin_i::is_mine() const$/;"	f	class:pin_i
-is_mine	src/sthread/mcs_lock.h	/^    bool is_mine(ext_qnode* me) { return me->_held == this; }$/;"	f	struct:mcs_lock
+is_mine	src/sthread/mcs_lock.h	/^	bool is_mine(ext_qnode* me) { return me->_held == this; }$/;"	f	struct:mcs_lock
 is_mine	src/sthread/sthread.h	/^    bool is_mine() const { return $/;"	f	struct:tatas_lock
 is_mine	src/sthread/sthread.h	/^    bool is_mine(ext_qnode* me) const { $/;"	f	struct:w_pthread_lock_t
 is_mounted	src/sm/device.cpp	/^bool device_m::is_mounted(const char* dev_name)$/;"	f	class:device_m
@@ -15925,7 +15926,7 @@ lpid_t	src/sm/sm_s.h	/^inline lpid_t::lpid_t(vid_t v, snum_t s, shpid_t p) :$/;"
 lseek	src/sthread/io.cpp	/^w_rc_t sthread_t::lseek(int fd, fileoff_t offset, int whence)$/;"	f	class:sthread_t
 lseek	src/sthread/io.cpp	/^w_rc_t sthread_t::lseek(int fd, fileoff_t pos, int whence, fileoff_t& ret)$/;"	f	class:sthread_t
 lsn	src/sm/btcursor.h	/^    const lsn_t&        lsn()     const { return _lsn; }$/;"	f	class:bt_cursor_t
-lsn	src/sm/log_core.cpp	/^    lsn_t lsn;		\/\/ where will we end up on disk?$/;"	m	struct:log_core::insert_info	file:
+lsn	src/sm/log_core.cpp	/^	lsn_t lsn;		\/\/ where will we end up on disk?$/;"	m	struct:log_core::insert_info	file:
 lsn	src/sm/page.h	/^page_p::lsn() const$/;"	f	class:page_p
 lsn1	src/sm/page_s.h	/^    lsn_t    lsn1;$/;"	m	class:page_s
 lsn2	src/sm/page_s.h	/^    lsn_t    lsn2;$/;"	m	class:page_s
@@ -16204,16 +16205,16 @@ mblock	src/fc/block_alloc.h	/^    typedef memory_block::block mblock;$/;"	t	stru
 mcadd	src/common/regcomp.cpp	/^mcadd(struct parse *p, cset *cs, const char *cp)$/;"	f	file:
 mccase	src/common/regcomp.cpp	/^mccase(struct parse *, cset * W_IFDEBUG3(cs))$/;"	f	file:
 mcinvert	src/common/regcomp.cpp	/^mcinvert(struct parse *, cset * W_IFDEBUG3(cs))$/;"	f	file:
-mcs_lock	src/sthread/mcs_lock.h	/^    mcs_lock() : _tail(NULL) { }$/;"	f	struct:mcs_lock
+mcs_lock	src/sthread/mcs_lock.h	/^	mcs_lock() : _tail(NULL) { }$/;"	f	struct:mcs_lock
 mcs_lock	src/sthread/mcs_lock.h	/^struct mcs_lock {$/;"	s
 mcs_rwlock	src/sthread/srwlock.h	/^    mcs_rwlock() : _holders(0), _is_plp(false), _is_reader(false) { }$/;"	f	class:mcs_rwlock
 mcs_rwlock	src/sthread/srwlock.h	/^class mcs_rwlock : protected queue_based_lock_t $/;"	c
-me	src/sm/log_core.cpp	/^    mcs_lock::qnode me;$/;"	m	struct:log_core::insert_info	file:
+me	src/sm/log_core.cpp	/^	mcs_lock::qnode me;$/;"	m	struct:log_core::insert_info	file:
 me	src/sm/smthread.h	/^    static smthread_t*         me() { return (smthread_t*) sthread_t::me(); }$/;"	f	class:smthread_t
 me	src/sm/smthread.h	/^me() $/;"	f
 me	src/sthread/sthread.h	/^    static sthread_t*    me() { return me_lval(); }$/;"	f	class:sthread_t
-me2	src/sm/log_core.cpp	/^	mcs_lock::qnode me2;$/;"	m	union:log_core::insert_info::__anon93	file:
-me2h	src/sm/log_core.cpp	/^	hacked_qnode me2h;$/;"	m	union:log_core::insert_info::__anon93	file:
+me2	src/sm/log_core.cpp	/^		mcs_lock::qnode me2;$/;"	m	union:log_core::insert_info::__anon93	file:
+me2h	src/sm/log_core.cpp	/^		hacked_qnode me2h;$/;"	m	union:log_core::insert_info::__anon93	file:
 me_lval	src/sthread/sthread.cpp	/^sthread_t* &sthread_t::me_lval() {$/;"	f	class:sthread_t
 mem_alloc	src/fc/w_bitmap.h	/^    bool            mem_alloc;$/;"	m	class:w_bitmap_t
 mem_needed	src/sm/bf.cpp	/^bf_m::mem_needed(int n)$/;"	f	class:bf_m
@@ -16482,11 +16483,11 @@ neg_inf	src/common/vec_t.h	/^    static vec_t& neg_inf;$/;"	m	class:vec_t
 neol	src/common/regex2.h	/^    int neol;        \/* number of $ used *\/$/;"	m	struct:re_guts
 never	src/common/regcomp.cpp	/^static int never = 0;        \/* for use in asserts; shuts lint up *\/$/;"	v	file:
 never	src/common/regcomp.cpp	149;"	d	file:
-new_base	src/sm/log_core.cpp	/^    long new_base;	\/\/ positive if we started a new partition$/;"	m	struct:log_core::insert_info	file:
+new_base	src/sm/log_core.cpp	/^	long new_base;	\/\/ positive if we started a new partition$/;"	m	struct:log_core::insert_info	file:
 new_c_str	src/fc/w_strstream.h	/^    const char *new_c_str()$/;"	f	class:w_ostrstream
 new_dec	src/fc/w_input.cpp	/^        new_hex, new_oct, new_dec,$/;"	e	enum:states	file:
 new_deleting_value	src/sm/sm_io.h	/^        store_deleting_t new_deleting_value()  const$/;"	f	class:store_operation_param
-new_end	src/sm/log_core.cpp	/^    long new_end;	\/\/ eventually assigned to _cur_epoch $/;"	m	struct:log_core::insert_info	file:
+new_end	src/sm/log_core.cpp	/^	long new_end;	\/\/ eventually assigned to _cur_epoch $/;"	m	struct:log_core::insert_info	file:
 new_hex	src/fc/w_input.cpp	/^        new_hex, new_oct, new_dec,$/;"	e	enum:states	file:
 new_image	src/sm/logrec.cpp	/^    void*                 new_image()   { return data + old_len; }$/;"	f	struct:page_splice_t
 new_image	src/sm/logrec.cpp	/^    void*                 new_image()   { return data + olen; }$/;"	f	struct:page_splicez_t
@@ -16754,7 +16755,7 @@ offset_typ	src/fc/atomic_container.h	/^    typedef long int offset_typ;$/;"	t	cl
 offsetof	src/fc/w_workaround.h	369;"	d
 old	src/sm/page.h	/^        space_bucket_t        old() const { return _old; }$/;"	f	class:page_p::page_bucket_info_t
 old_deleting_value	src/sm/sm_io.h	/^        store_deleting_t old_deleting_value()  const$/;"	f	class:store_operation_param
-old_end	src/sm/log_core.cpp	/^    long old_end;	\/\/ end point of our predecessor$/;"	m	struct:log_core::insert_info	file:
+old_end	src/sm/log_core.cpp	/^	long old_end;	\/\/ end point of our predecessor$/;"	m	struct:log_core::insert_info	file:
 old_image	src/sm/logrec.cpp	/^    void*                 old_image()   { return data; }$/;"	f	struct:page_splice_t
 old_image	src/sm/logrec.cpp	/^    void*                 old_image()   { return data; }$/;"	f	struct:page_splicez_t
 old_len	src/sm/logrec.cpp	/^    uint2_t                 old_len;\/\/ len of old data (# bytes removed or overwritten by$/;"	m	struct:page_splice_t	file:
@@ -16901,7 +16902,7 @@ operator +=	src/fc/nbox.cpp	/^nbox_t& nbox_t::operator+=(const nbox_t& other)$/;
 operator +=	src/fc/stime.cpp	/^stime_t &stime_t::operator+=(const stime_t &r)$/;"	f	class:stime_t
 operator +=	src/fc/tests/test_stat_inc_gen.cpp	/^operator+=(test_stat &s,const test_stat &t)$/;"	f
 operator +=	src/sm/bf_htab_stats_t_inc_gen.cpp	/^operator+=(bf_htab_stats_t &s,const bf_htab_stats_t &t)$/;"	f
-operator +=	src/sm/log_core.cpp	/^    histo &operator+=(histo const &other) {$/;"	f	struct:histo
+operator +=	src/sm/log_core.cpp	/^	histo &operator+=(histo const &other) {$/;"	f	struct:histo
 operator +=	src/sm/sm_du_stats.h	/^inline SmFileMetaStats& SmFileMetaStats::operator+=(const SmFileMetaStats& fileStats)$/;"	f	class:SmFileMetaStats
 operator +=	src/sm/sm_du_stats.h	/^inline SmStoreMetaStats& SmStoreMetaStats::operator+=(const SmStoreMetaStats& storeStats)$/;"	f	class:SmStoreMetaStats
 operator +=	src/sm/sm_du_stats.h	/^inline SmVolumeMetaStats& SmVolumeMetaStats::operator+=(const SmVolumeMetaStats& volumeStats)$/;"	f	class:SmVolumeMetaStats
@@ -17127,8 +17128,8 @@ operator []	src/fc/dynarray.h	/^    T &operator[](size_t i) { return *_at(i).t; 
 operator []	src/fc/dynarray.h	/^    T const &operator[](size_t i) const { return *_at(i).tc; }$/;"	f	struct:dynvector
 operator []	src/fc/vtable.h	/^    const char *operator[](int a) const {$/;"	f	class:vtable_row_t
 operator []	src/fc/vtable.h	/^    vtable_row_t& operator[] (int i) const {$/;"	f	class:vtable_t
-operator []	src/sm/log_core.cpp	/^    bool operator[](char c) const {$/;"	f	struct:feature_set
-operator []	src/sm/log_core.cpp	/^    long &operator[](long idx) {$/;"	f	struct:histo
+operator []	src/sm/log_core.cpp	/^	bool operator[](char c) const {$/;"	f	struct:feature_set
+operator []	src/sm/log_core.cpp	/^	long &operator[](long idx) {$/;"	f	struct:histo
 operator ^	src/fc/nbox.cpp	/^nbox_t nbox_t::operator^(const nbox_t& other) const$/;"	f	class:nbox_t
 operator bool	src/sm/sm.h	/^    operator         bool()const { return (_tid != tid_t::null); }$/;"	f	class:sm_quark_t
 operator char const*	src/fc/dynarray.h	/^    operator char const*() const { return _base; }$/;"	f	struct:dynarray
@@ -17154,7 +17155,7 @@ operator ostream&	src/sm/dir.cpp	/^    operator ostream&() { return _out; }$/;"	
 operator ostream&	src/sm/lock_core.cpp	/^    operator ostream&() { return _out; }$/;"	f	struct:pretty_printer
 operator pthread_mutex_t*	src/sm/bf_core.h	/^    operator pthread_mutex_t*() { return &_page_mutex; }$/;"	f	class:page_write_mutex_t
 operator ptr	src/fc/w_temp_alloc.h	/^    operator ptr() { return _ptr; }$/;"	f	struct:w_temp_alloc
-operator qnode*	src/sthread/mcs_lock.h	/^      operator qnode*() { return &_node; }$/;"	f	struct:mcs_lock::ext_qnode
+operator qnode*	src/sthread/mcs_lock.h	/^		operator qnode*() { return &_node; }$/;"	f	struct:mcs_lock::ext_qnode
 operator smsize_t	src/sm/sort_s.h	/^    operator smsize_t () const { $/;"	f	class:ssm_sort::key_cookie_t
 operator struct timespec	src/fc/stime.cpp	/^stime_t::operator struct timespec() const$/;"	f	class:stime_t
 operator struct timeval	src/fc/stime.cpp	/^stime_t::operator struct timeval() const$/;"	f	class:stime_t
@@ -17755,7 +17756,7 @@ pop_back	src/fc/w_list.h	/^    T*	pop_back()  { return chop(); }$/;"	f	class:w_l
 pop_front	src/fc/w_list.h	/^    T*	pop_front() { return pop(); }$/;"	f	class:w_list_t
 popc64	src/fc/mem_block.cpp	/^long popc64(u64 x) {$/;"	f	namespace:memory_block
 popped	src/fc/tests/container.cpp	/^int* pushed, *popped;$/;"	v
-pos	src/sm/log_core.cpp	/^    long pos;		\/\/ how much of the allocation already claimed?$/;"	m	struct:log_core::insert_info	file:
+pos	src/sm/log_core.cpp	/^	long pos;		\/\/ how much of the allocation already claimed?$/;"	m	struct:log_core::insert_info	file:
 pos_inf	src/common/vec_t.cpp	/^cvec_t                cvec_t::pos_inf;$/;"	m	class:cvec_t	file:
 pos_inf	src/common/vec_t.cpp	/^vec_t&                vec_t::pos_inf = *(vec_t*) &cvec_t::pos_inf;$/;"	m	class:vec_t	file:
 pos_inf	src/common/vec_t.h	/^    static cvec_t pos_inf;$/;"	m	class:cvec_t
@@ -17767,7 +17768,7 @@ power_of_two	src/fc/mem_block.h	/^    fail_unless<((BYTES &- BYTES) == BYTES)>  
 pread	src/sthread/io.cpp	/^w_rc_t    sthread_t::pread(int fd, void *buf, int n, fileoff_t pos)$/;"	f	class:sthread_t
 pread	src/sthread/sdisk.cpp	/^w_rc_t    sdisk_t::pread(void *buf, int size, fileoff_t pos,$/;"	f	class:sdisk_t
 pread	src/sthread/sdisk_unix.cpp	/^w_rc_t    sdisk_unix_t::pread(void *buf, int count, fileoff_t pos, int &done)$/;"	f	class:sdisk_unix_t
-pred2	src/sm/log_core.cpp	/^    mcs_lock::qnode* pred2;$/;"	m	struct:log_core::insert_info	file:
+pred2	src/sm/log_core.cpp	/^	mcs_lock::qnode* pred2;$/;"	m	struct:log_core::insert_info	file:
 prefetch_event_t	src/sm/bf_prefetch.h	/^    enum prefetch_event_t {$/;"	g	class:bf_prefetch_thread_t
 prefetch_status_t	src/sm/bf_prefetch.h	/^    enum prefetch_status_t {$/;"	g	class:bf_prefetch_thread_t
 prefix	Makefile	/^prefix = \/usr\/local$/;"	m
@@ -17868,7 +17869,7 @@ print	src/sm/btree.cpp	/^btree_m::print(const lpid_t& root, $/;"	f	class:btree_m
 print	src/sm/btree_p.cpp	/^btree_p::print($/;"	f	class:btree_p
 print	src/sm/histo.cpp	/^ostream &histoid_t::print(ostream &o) const$/;"	f	class:histoid_t
 print	src/sm/lgrec.cpp	/^lg_tag_chunks_h::print(ostream &o) const$/;"	f	class:lg_tag_chunks_h
-print	src/sm/log_core.cpp	/^    void print() const {$/;"	f	struct:histo
+print	src/sm/log_core.cpp	/^	void print() const {$/;"	f	struct:histo
 print	src/sm/newsort.cpp	/^    void print(ostream &o) const {$/;"	f	class:phase_mgr
 print	src/sm/newsort.cpp	/^    void print(ostream& o) const {$/;"	f	class:fib_t
 print	src/sm/pmap.cpp	/^ostream    &Pmap::print(ostream &s) const$/;"	f	class:Pmap
@@ -18095,9 +18096,9 @@ pwrite	src/sthread/sdisk_unix.cpp	/^w_rc_t    sdisk_unix_t::pwrite(const void *b
 pxinfo_t	src/sm/zkeyed.cpp	/^struct pxinfo_t {$/;"	s	file:
 pxstats	src/sm/smsh/lib/smsh.tcl	/^proc pxstats { reset } {$/;"	p
 pxxl	src/sm/zkeyed.cpp	/^    int  pxxl;         \/\/ length of the prefix for *this*$/;"	m	struct:pxinfo_t	file:
-q	src/sm/log_core.cpp	/^    mcs_lock::qnode q;$/;"	m	union:__anon89	file:
+q	src/sm/log_core.cpp	/^	mcs_lock::qnode q;$/;"	m	union:__anon89	file:
 qbox	src/sm/rtree_p.h	/^    nbox_t    qbox;$/;"	m	class:rt_cursor_t
-qnode	src/sthread/mcs_lock.h	/^    struct qnode {$/;"	s	struct:mcs_lock
+qnode	src/sthread/mcs_lock.h	/^	struct qnode {$/;"	s	struct:mcs_lock
 qsort_cmp	src/sm/sort.cpp	/^qsort_cmp(const void* k1, const void* k2)$/;"	f	file:
 quad_table	src/fc/nbox.cpp	/^static const int quad_table[4][2][2] = { {{0,1}, {3,2}}, {{1,2}, {0,3}},$/;"	v	file:
 quant	src/fc/vtable.h	/^    int            quant() const { return _rows_filled; }$/;"	f	class:vtable_t
@@ -18369,10 +18370,10 @@ release	src/sm/lock_x.h	/^        rc_t release() {$/;"	f	struct:lock_head_t::my_
 release	src/sm/log.cpp	/^log_m:: release()  $/;"	f	class:log_m
 release	src/sm/log_core.cpp	/^log_core::release() $/;"	f	class:log_core
 release	src/sm/page.cpp	/^void page_s::space_t::release(int amt, xct_t* xd)$/;"	f	class:page_s::space_t
-release	src/sthread/mcs_lock.h	/^    void release(ext_qnode &me) { release(&me); }$/;"	f	struct:mcs_lock
-release	src/sthread/mcs_lock.h	/^    void release(ext_qnode *me) { $/;"	f	struct:mcs_lock
-release	src/sthread/mcs_lock.h	/^    void release(qnode &me) { release(&me); }$/;"	f	struct:mcs_lock
-release	src/sthread/mcs_lock.h	/^    void release(qnode* me) {$/;"	f	struct:mcs_lock
+release	src/sthread/mcs_lock.h	/^	void release(ext_qnode &me) { release(&me); }$/;"	f	struct:mcs_lock
+release	src/sthread/mcs_lock.h	/^	void release(ext_qnode *me) { $/;"	f	struct:mcs_lock
+release	src/sthread/mcs_lock.h	/^	void release(qnode &me) { release(&me); }$/;"	f	struct:mcs_lock
+release	src/sthread/mcs_lock.h	/^	void release(qnode* me) {$/;"	f	struct:mcs_lock
 release	src/sthread/sthread.h	/^        void release() { _lock->release_read(); }$/;"	f	struct:occ_rwlock::occ_rlock
 release	src/sthread/sthread.h	/^        void release() { _lock->release_write(); }$/;"	f	struct:occ_rwlock::occ_wlock
 release	src/sthread/sthread.h	/^    void release() {$/;"	f	struct:tatas_lock
@@ -18595,7 +18596,7 @@ run	src/sm/bf.cpp	/^void page_writer_thread_t::run() $/;"	f	class:page_writer_th
 run	src/sm/bf_core.cpp	/^    virtual void run() {$/;"	f	struct:bf_core_m::init_thread_t
 run	src/sm/bf_prefetch.cpp	/^bf_prefetch_thread_t::run() $/;"	f	class:bf_prefetch_thread_t
 run	src/sm/chkpt.cpp	/^chkpt_thread_t::run()$/;"	f	class:chkpt_thread_t
-run	src/sm/log_core.cpp	/^    virtual void run() { _log->flush_daemon(); }$/;"	f	class:flush_daemon_thread_t
+run	src/sm/log_core.cpp	/^	virtual void run() { _log->flush_daemon(); }$/;"	f	class:flush_daemon_thread_t
 run	src/sm/restart.cpp	/^sm_undo_thread_t::run()$/;"	f	class:sm_undo_thread_t
 run	src/sm/smsh/tcl_thread.cpp	/^void tcl_thread_t::run()$/;"	f	class:tcl_thread_t
 run	src/sm/tests/create_rec.cpp	/^void smthread_user_t::run()$/;"	f	class:smthread_user_t
@@ -19593,7 +19594,7 @@ start_crit	src/sm/xct.h	/^    void                        start_crit() { (void) 
 start_flush_daemon	src/sm/log_core.cpp	/^void log_core::start_flush_daemon() $/;"	f	class:log_core
 start_log_corruption	src/sm/log.h	/^    void                start_log_corruption() { _log_corruption = true; }$/;"	f	class:log_m
 start_log_corruption	src/sm/sm.cpp	/^ss_m::start_log_corruption()$/;"	f	class:ss_m
-start_pos	src/sm/log_core.cpp	/^    long start_pos;	\/\/ start point for thread groups$/;"	m	struct:log_core::insert_info	file:
+start_pos	src/sm/log_core.cpp	/^	long start_pos;	\/\/ start point for thread groups$/;"	m	struct:log_core::insert_info	file:
 start_proc	src/sthread/stcore_pthread.h	/^    void        (*start_proc)(void *);  \/* thread start function *\/$/;"	m	struct:sthread_core_t
 startstop_DEPENDENCIES	src/sm/tests/Makefile	/^startstop_DEPENDENCIES = $(top_builddir)\/src\/sm\/libsm.a \\$/;"	m
 startstop_LDADD	src/sm/tests/Makefile	/^startstop_LDADD = $(LDADD)$/;"	m
@@ -19774,7 +19775,7 @@ store_utilization	src/sm/sdesc.h	/^    const histoid_t*    store_utilization() c
 str	src/fc/w_compat_strstream.cpp	/^char* istrstream::str() { return _M_buf.str(); }$/;"	f	class:shore_compat::istrstream
 str	src/fc/w_compat_strstream.cpp	/^char* ostrstream::str()$/;"	f	class:shore_compat::ostrstream
 str	src/fc/w_compat_strstream.cpp	/^char* strstreambuf::str()$/;"	f	class:shore_compat::strstreambuf
-str	src/sm/log_core.cpp	/^    char const* str;$/;"	m	struct:feature_set	file:
+str	src/sm/log_core.cpp	/^	char const* str;$/;"	m	struct:feature_set	file:
 str_to_bool	src/common/option.cpp	/^bool option_t::str_to_bool(const char* str, bool& badStr)$/;"	f	class:option_t
 streq	src/sm/smsh/shell.h	/^streq(const char* s1, const char* s2)$/;"	f
 stringCSKF	src/sm/newsort.cpp	/^stringCSKF($/;"	f
@@ -21192,10 +21193,10 @@ vtable_threads	src/sm/tests/vtable_example.cpp	/^smthread_user_t::vtable_threads
 vtable_xcts	src/sm/tests/vtable_example.cpp	/^smthread_user_t::vtable_xcts() $/;"	f	class:smthread_user_t
 vthis	src/sm/bf.cpp	/^    bf_page_writer_control_t volatile* vthis() { return this; }$/;"	f	struct:bf_page_writer_control_t
 vthis	src/sm/lock_x.h	/^    lock_request_t volatile* vthis() { return this; }$/;"	f	class:lock_request_t
-vthis	src/sm/log_core.cpp	/^    insert_info volatile* vthis() { return this; }$/;"	f	struct:log_core::insert_info
+vthis	src/sm/log_core.cpp	/^	insert_info volatile* vthis() { return this; }$/;"	f	struct:log_core::insert_info
 vthis	src/sm/log_core.h	/^	epoch volatile* vthis() { return this; }	$/;"	f	struct:log_core::epoch
 vthis	src/sm/xct.cpp	/^    xct_link volatile* 		vthis() { return this; }$/;"	f	struct:xct_link
-vthis	src/sthread/mcs_lock.h	/^	qnode volatile* vthis() { return this; }$/;"	f	struct:mcs_lock::qnode
+vthis	src/sthread/mcs_lock.h	/^		qnode volatile* vthis() { return this; }$/;"	f	struct:mcs_lock::qnode
 w	src/sm/lock_s.h	/^        w_base_t::uint4_t w[4]; $/;"	m	union:lockid_t::__anon61
 w_ascend_list_t	src/fc/w_list.h	/^    NORET            w_ascend_list_t($/;"	f	class:w_ascend_list_t
 w_ascend_list_t	src/fc/w_list.h	/^class w_ascend_list_t : public w_keyed_list_t<T,LOCK, K>  {$/;"	c
@@ -21566,14 +21567,14 @@ zvec_t	src/common/vec_t.h	/^class zvec_t : public vec_t {$/;"	c
 ~form_cleanup	src/fc/w_form.cpp	/^   ~form_cleanup() {$/;"	f	struct:form_cleanup
 ~frame_info	src/sm/bf_prefetch.h	/^    NORET ~frame_info() {}$/;"	f	struct:bf_prefetch_thread_t::frame_info
 ~ftstk_t	src/sm/rtree.cpp	/^ftstk_t::~ftstk_t() {$/;"	f	class:ftstk_t
-~histo	src/sm/log_core.cpp	/^    ~histo() {$/;"	f	struct:histo
+~histo	src/sm/log_core.cpp	/^	~histo() {$/;"	f	struct:histo
 ~histoid_remove_t	src/sm/histo.h	/^    NORET ~histoid_remove_t() {}$/;"	f	class:histoid_remove_t
 ~histoid_t	src/sm/histo.cpp	/^histoid_t::~histoid_t () $/;"	f	class:histoid_t
 ~histoid_update_t	src/sm/histo.cpp	/^histoid_update_t::~histoid_update_t() $/;"	f	class:histoid_update_t
 ~holder_search	src/common/latch.cpp	/^    ~holder_search() $/;"	f	class:holder_search
 ~htab	src/sm/bf_htab.h	/^    NORET   ~htab()     { delete[] _table; } $/;"	f	class:bf_core_m::htab
 ~htab_tester	src/sm/tests/htab.cpp	/^    ~htab_tester() $/;"	f	class:htab_tester
-~insert_info_array	src/sm/log_core.cpp	/^    ~insert_info_array() $/;"	f	struct:log_core::insert_info_array
+~insert_info_array	src/sm/log_core.cpp	/^	~insert_info_array() $/;"	f	struct:log_core::insert_info_array
 ~io_m	src/sm/sm_io.cpp	/^io_m::~io_m()$/;"	f	class:io_m
 ~io_thread_t	src/sthread/tests/ioperf.cpp	/^io_thread_t::~io_thread_t()$/;"	f	class:io_thread_t
 ~istrstream	src/fc/w_compat_strstream.cpp	/^istrstream::~istrstream() {}$/;"	f	class:shore_compat::istrstream
