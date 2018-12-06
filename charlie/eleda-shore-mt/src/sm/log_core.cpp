@@ -2764,10 +2764,13 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 //		long group_size = old_count / ONE;
 //		combination_stats[group_size]++;
 		temp_count = old_count;
-		old_count &= ONE - 1;
 		if(temp_count + size + ONE == info->vthis()->count) {//last one //		
 			_insert_lock.acquire(&info->me);
-			_acquire_buffer_space_for_each(info, size);
+			old_count = info->vthis()->count;
+			old_count &= ONE - 1;
+			_acquire_buffer_space_for_each(info, old_count); 
+			// what if the last change the start_pos before earlier ones write the contents?
+			// what if the last one use the real info and the earlier ones use the fake one?
 		}else{
 		//	_insert_lock.release(&info->me);
 		}

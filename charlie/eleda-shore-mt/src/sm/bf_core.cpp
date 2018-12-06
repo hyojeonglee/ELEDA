@@ -1278,12 +1278,14 @@ bf_core_m::unpin(bfcb_t*& p, int ref_bit, bool W_IFDEBUG4(in_htab))
                         int(smlevel_0::in_recovery_redo()) << endl
                     << endl;
             }
+#if 1
             w_assert0 ( 
                 (p->safe_rec_lsn() <= p->frame()->lsn1) ||
                 ((p->get_storeflags() & smlevel_0::st_tmp) 
                      == smlevel_0::st_tmp) ||
                 smlevel_0::in_recovery_redo()
                 );
+#endif
         }
         else {
             /* Clean pages should not have a rec_lsn.
