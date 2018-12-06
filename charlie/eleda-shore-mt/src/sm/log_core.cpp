@@ -2200,6 +2200,7 @@ void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)
 
 	if(spillsize <= 0) {
 		// update epoch for next log insert
+		if(_buf_epoch.end <= new_end)
 		_buf_epoch.end = new_end;
 	}
 	else if(next_lsn.lo() <= _partition_data_size) {
@@ -2519,7 +2520,7 @@ bool log_core::_wait_for_expose(insert_info* info, bool attempt_abort) {
 	w_assert1(SLOT_FINISHED == info->vthis()->count);
 	membar_producer();
 	if(enable_mcs_expose) {
-		if(attempt_abort && info->pred2 && _slot_array->indexof(info) % 32) {
+		if(attempt_abort && info->pred2 && _slot_array->indexof(info) % 1) {
 			unsigned long waiting = WAITING.hq._state;
 			membar_exit();
 			if(info->me2h._state == waiting && 
@@ -2754,16 +2755,22 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 		if(old_count == SLOT_AVAILABLE) { //first one
 			_insert_lock.acquire(&info->me);
 			_allocate_slot(idx); //mark it as busy
+			_insert_lock.release(&info->me);
 		}else {
+			//_insert_lock.acquire(&info->me);
 			cout << " this is for debug " << endl;
-			_insert_lock.acquire(&info->me);
 		}
 
-		long group_size = old_count / ONE;
-		combination_stats[group_size]++;
+//		long group_size = old_count / ONE;
+//		combination_stats[group_size]++;
 		temp_count = old_count;
 		old_count &= ONE - 1;
-		_acquire_buffer_space_for_each(info, size);
+		if(temp_count + size + ONE == info->vthis()->count) {//last one //		
+			_insert_lock.acquire(&info->me);
+			_acquire_buffer_space_for_each(info, size);
+		}else{
+		//	_insert_lock.release(&info->me);
+		}
 		membar_producer();
 		if(!info->error)
 			rec_lsn = _copy_to_buffer(rec, pos, size, info);
@@ -2783,7 +2790,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 
 			// negate the count to signal waiting threads and mark the slot busy
 			old_count = atomic_swap_ulong((unsigned long*) &info->count, SLOT_PENDING); //SLOT_PENDING = -2
-			long group_size = old_count/ONE;
+			long group_size = old_count / ONE;
 			combination_stats[group_size]++;
 			old_count &= (ONE-1);
 
