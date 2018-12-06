@@ -2710,6 +2710,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	   */
 	lsn_t rec_lsn;
 	insert_info* info = 0;
+	insert_info* local_info = 0;
 	long pos = 0;
 	bool acquired = false;
 	long old_count;
@@ -2746,7 +2747,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 		// need to consolidate
 		long idx =  (long)pthread_self();
 		long start_pos;
-		info = _join_slot(idx, old_count, size);
+		local_info = info = _join_slot(idx, old_count, size);
 		pos = old_count & (ONE-1); 
 		//pos is the value that we wanted
 		//cout << " this pos " << pos << endl;
@@ -2771,12 +2772,12 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 			_acquire_buffer_space_for_each(info, old_count); 
 			// what if the last change the start_pos before earlier ones write the contents?
 			// what if the last one use the real info and the earlier ones use the fake one?
-		}else{
+		}else{ // earlier ones
 		//	_insert_lock.release(&info->me);
 		}
 		membar_producer();
 		if(!info->error)
-			rec_lsn = _copy_to_buffer(rec, pos, size, info);
+			rec_lsn = _copy_to_buffer(rec, pos, size, local_info);
 //charlie added end
 #else
 		if(old_count == SLOT_AVAILABLE) {
@@ -2831,9 +2832,8 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	}
 #else
 	if(temp_count + size + ONE == info->vthis()->count) {//last one //		
-	//	_acquire_buffer_space_for_each(info, size);
 		if(!info->error)
-			_update_epochs(info, use_expose_groups && use_decoupled_memcpy);
+			_update_epochs(info, use_expose_groups && use_decoupled_memcpy); // this info should be real info
 		if(!use_decoupled_memcpy) 
 			_insert_lock.release(&info->me);
 	}
