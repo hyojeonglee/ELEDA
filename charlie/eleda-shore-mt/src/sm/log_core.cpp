@@ -2083,7 +2083,7 @@ void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)
 	while(*&_waiting_for_space || 
 			end_byte() - start_byte() + recsize > segsize() - 2*BLOCK_SIZE) 
 	{
-		_insert_lock.release(&info->me);
+//		_insert_lock.release(&info->me);
 		{
 			CRITICAL_SECTION(cs, _wait_flush_lock);
 			while(end_byte() - start_byte() + recsize > segsize() - 2*BLOCK_SIZE)
@@ -2095,7 +2095,7 @@ void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)
 				DO_PTHREAD(pthread_cond_wait(&_wait_cond, &_wait_flush_lock));
 			}
 		}
-		_insert_lock.acquire(&info->me);
+//		_insert_lock.acquire(&info->me);
 	}
 	// Having ics now should mean that even if another insert snuck in here,
 	// we're ok since we recheck the condition. However, we *could* starve here.
@@ -2200,7 +2200,6 @@ void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)
 
 	if(spillsize <= 0) {
 		// update epoch for next log insert
-		if(_buf_epoch.end <= new_end)
 		_buf_epoch.end = new_end;
 	}
 	else if(next_lsn.lo() <= _partition_data_size) {
@@ -2217,7 +2216,7 @@ void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)
 		if(leftovers && !reserve_space(leftovers)) {
 			info->error = eOUTOFLOGSPACE;
 			if(use_decoupled_memcpy)
-				_insert_lock.release(&info->me);
+			//	_insert_lock.release(&info->me);
 			return;
 		}
 
@@ -2238,8 +2237,9 @@ void log_core::_acquire_buffer_space_for_each(insert_info* info, long recsize)
 		info->pred2 = _expose_lock.__unsafe_begin_acquire(&info->me2);
 	}
 
-	if(use_decoupled_memcpy)
-		_insert_lock.release(&info->me);
+
+	//if(use_decoupled_memcpy)
+	//	_insert_lock.release(&info->me);
 	if(print_working_set)
 		(*tls_histo)[_end - _start]++;
 
@@ -2531,6 +2531,7 @@ bool log_core::_wait_for_expose(insert_info* info, bool attempt_abort) {
 			}
 		}
 		_expose_lock.__unsafe_end_acquire(&info->me2, info->pred2);
+
 	}
 	else {
 		_spin_on_epoch(info->old_end);
@@ -2710,7 +2711,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	   */
 	lsn_t rec_lsn;
 	insert_info* info = 0;
-	insert_info* local_info = 0;
+	insert_info local_info;
 	long pos = 0;
 	bool acquired = false;
 	long old_count;
@@ -2745,40 +2746,49 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 
 	if(!acquired) {
 		// need to consolidate
+		local_info.start_pos = _buf_epoch.end;
+		local_info.lsn = _curr_lsn;
 		long idx =  (long)pthread_self();
 		long start_pos;
-		local_info = info = _join_slot(idx, old_count, size);
+		info = _join_slot(idx, old_count, size);
+		w_assert0(_expose_lock._tail != &info->me2);
 		pos = old_count & (ONE-1); 
-		//pos is the value that we wanted
-		//cout << " this pos " << pos << endl;
 //charlie added concurrent write to buf
 #ifdef PARALLEL_LOGGING
 		if(old_count == SLOT_AVAILABLE) { //first one
-			_insert_lock.acquire(&info->me);
+		//	_insert_lock.acquire(&info->me);
 			_allocate_slot(idx); //mark it as busy
-			_insert_lock.release(&info->me);
+		//	_insert_lock.release(&info->me);
 		}else {
 			//_insert_lock.acquire(&info->me);
-			cout << " this is for debug " << endl;
+			membar_enter();
+			w_assert0(_expose_lock._tail != &info->me2);
 		}
-
-//		long group_size = old_count / ONE;
-//		combination_stats[group_size]++;
+//added by charlie
+		w_assert0(_expose_lock._tail != &info->me2);
 		temp_count = old_count;
 		if(temp_count + size + ONE == info->vthis()->count) {//last one //		
-			_insert_lock.acquire(&info->me);
+			membar_enter();
+			w_assert0(_insert_lock._tail != &info->me);
+		//	_insert_lock.acquire(&info->me);
 			old_count = info->vthis()->count;
 			old_count &= ONE - 1;
 			_acquire_buffer_space_for_each(info, old_count); 
+//added by charlie
+			w_assert0(info->pred2 != &info->me2);
 			// what if the last change the start_pos before earlier ones write the contents?
 			// what if the last one use the real info and the earlier ones use the fake one?
 		}else{ // earlier ones
 		//	_insert_lock.release(&info->me);
+//added by charlie
+			w_assert0(info->pred2 != &info->me2);
 		}
 		membar_producer();
 		if(!info->error)
-			rec_lsn = _copy_to_buffer(rec, pos, size, local_info);
+			rec_lsn = _copy_to_buffer(rec, pos, size, &local_info);
 //charlie added end
+//added by charlie
+			w_assert0(info->pred2 != &info->me2);
 #else
 		if(old_count == SLOT_AVAILABLE) {
 			/* First to arrive. Acquire the lock on behalf of the whole
@@ -2820,6 +2830,7 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 		rec_lsn = _copy_to_buffer(rec, pos, size, info);
 #endif
 
+	//
 	// last one to leave cleans up
 #ifndef PARALLEL_LOGGING
 	long end_count = atomic_add_long_nv((unsigned long *)&info->count, size);
@@ -2834,10 +2845,12 @@ rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	if(temp_count + size + ONE == info->vthis()->count) {//last one //		
 		if(!info->error)
 			_update_epochs(info, use_expose_groups && use_decoupled_memcpy); // this info should be real info
-		if(!use_decoupled_memcpy) 
-			_insert_lock.release(&info->me);
+	//	if(!use_decoupled_memcpy) 
+		//	_insert_lock.release(&info->me);
 	}
 
+//added by charlie
+		w_assert0(info->pred2 != &info->me2);
 #endif
 	if(info->error)
 		return RC(info->error);

@@ -1170,7 +1170,7 @@ CCASDEPMODE	src/sthread/tests/Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
 CCASDEPMODE	tools/Makefile	/^CCASDEPMODE = depmode=gcc3$/;"	m
 CCASFLAGS	Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	config/Makefile	/^CCASFLAGS = -g -O2$/;"	m
-CCASFLAGS	src/Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCASFLAGS	src/Makefile	/^CCASFLAGS = -g -O0$/;"	m
 CCASFLAGS	src/atomic_ops/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/atomic_ops/asm_linkage/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/atomic_ops/asm_linkage/usr/Makefile	/^CCASFLAGS = -g -O2$/;"	m
@@ -1199,12 +1199,12 @@ CCASFLAGS	src/common/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/common/tests/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/fc/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/fc/tests/Makefile	/^CCASFLAGS = -g -O2$/;"	m
-CCASFLAGS	src/sm/Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCASFLAGS	src/sm/Makefile	/^CCASFLAGS = -g -O0$/;"	m
 CCASFLAGS	src/sm/smsh/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/sm/smsh/lib/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/sm/smsh/scripts/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	src/sm/tests/Makefile	/^CCASFLAGS = -g -O2$/;"	m
-CCASFLAGS	src/sthread/Makefile	/^CCASFLAGS = -g -O2$/;"	m
+CCASFLAGS	src/sthread/Makefile	/^CCASFLAGS = -g -O0$/;"	m
 CCASFLAGS	src/sthread/tests/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCASFLAGS	tools/Makefile	/^CCASFLAGS = -g -O2$/;"	m
 CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
@@ -2710,7 +2710,7 @@ FTL	src/sm/bf_prefetch.cpp	87;"	d	file:
 FUDGE	src/sm/page.cpp	1743;"	d	file:
 FULLOPTFLAGS	Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	config/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
-FULLOPTFLAGS	src/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
+FULLOPTFLAGS	src/Makefile	/^FULLOPTFLAGS = -O0 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/atomic_ops/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/atomic_ops/asm_linkage/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/atomic_ops/asm_linkage/usr/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
@@ -2739,12 +2739,12 @@ FULLOPTFLAGS	src/common/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations 
 FULLOPTFLAGS	src/common/tests/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/fc/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/fc/tests/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
-FULLOPTFLAGS	src/sm/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
+FULLOPTFLAGS	src/sm/Makefile	/^FULLOPTFLAGS = -O0 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/sm/smsh/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/sm/smsh/lib/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/sm/smsh/scripts/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/sm/tests/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
-FULLOPTFLAGS	src/sthread/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
+FULLOPTFLAGS	src/sthread/Makefile	/^FULLOPTFLAGS = -O0 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	src/sthread/tests/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FULLOPTFLAGS	tools/Makefile	/^FULLOPTFLAGS = -O3 -fexpensive-optimizations $(YES_INLINE_FLAGS)$/;"	m
 FUNC	src/fc/w_debug.h	154;"	d
@@ -3708,7 +3708,7 @@ LOG_COMPILE	src/fc/tests/Makefile	/^LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS
 LOG_COMPILE	src/sm/smsh/Makefile	/^LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS) $(LOG_FLAGS)$/;"	m
 LOG_COMPILE	src/sm/tests/Makefile	/^LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS) $(LOG_FLAGS)$/;"	m
 LOG_COMPILE	src/sthread/tests/Makefile	/^LOG_COMPILE = $(LOG_COMPILER) $(AM_LOG_FLAGS) $(LOG_FLAGS)$/;"	m
-LOG_CORE_C	src/sm/log_core.cpp	60;"	d	file:
+LOG_CORE_C	src/sm/log_core.cpp	62;"	d	file:
 LOG_CORE_C	src/sm/sm-no-inline.cpp	28;"	d	file:
 LOG_CORE_H	src/sm/log_core.h	55;"	d
 LOG_CRIT	src/fc/errlog.h	58;"	d
@@ -3901,9 +3901,9 @@ MCS_LOCK_H	src/sthread/mcs_lock.h	2;"	d
 MCadd	src/common/regex2.h	145;"	d
 MCin	src/common/regex2.h	147;"	d
 MCsub	src/common/regex2.h	146;"	d
-MIDOPTFLAGS	Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
+MIDOPTFLAGS	Makefile	/^MIDOPTFLAGS = -O0 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	config/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
-MIDOPTFLAGS	src/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
+MIDOPTFLAGS	src/Makefile	/^MIDOPTFLAGS = -O0 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/atomic_ops/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/atomic_ops/asm_linkage/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/atomic_ops/asm_linkage/usr/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
@@ -3932,12 +3932,12 @@ MIDOPTFLAGS	src/common/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/common/tests/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/fc/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/fc/tests/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
-MIDOPTFLAGS	src/sm/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
+MIDOPTFLAGS	src/sm/Makefile	/^MIDOPTFLAGS = -O0 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/sm/smsh/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/sm/smsh/lib/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/sm/smsh/scripts/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/sm/tests/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
-MIDOPTFLAGS	src/sthread/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
+MIDOPTFLAGS	src/sthread/Makefile	/^MIDOPTFLAGS = -O0 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	src/sthread/tests/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIDOPTFLAGS	tools/Makefile	/^MIDOPTFLAGS = -O2 $(YES_INLINE_FLAGS)$/;"	m
 MIN	src/fc/nbox.cpp	51;"	d	file:
@@ -4758,6 +4758,7 @@ PAGE_H	src/sm/page.h	54;"	d
 PAGE_H_H	src/sm/page_h.h	31;"	d
 PAGE_IN_BLOCKS	src/sm/log_core.h	/^    enum { PAGE_IN_BLOCKS= SM_PAGESIZE\/BLOCK_SIZE };$/;"	e	enum:log_core::__anon82
 PAGE_S_H	src/sm/page_s.h	54;"	d
+PARALLEL_LOGGING	src/sm/log_core.cpp	53;"	d	file:
 PARTITION_BITS	src/common/lsn.h	/^    enum { PARTITION_BITS=16 };$/;"	e	enum:lsn_t::__anon3
 PARTITION_C	src/sm/partition.cpp	60;"	d	file:
 PARTITION_COUNT	src/sm/log_core.h	/^enum       { PARTITION_COUNT= smlevel_0::max_openlog };$/;"	e	enum:__anon79
@@ -5826,7 +5827,7 @@ SM_SOURCE	src/sm/lid.cpp	34;"	d	file:
 SM_SOURCE	src/sm/lock.cpp	58;"	d	file:
 SM_SOURCE	src/sm/lock_core.cpp	59;"	d	file:
 SM_SOURCE	src/sm/log.cpp	57;"	d	file:
-SM_SOURCE	src/sm/log_core.cpp	59;"	d	file:
+SM_SOURCE	src/sm/log_core.cpp	61;"	d	file:
 SM_SOURCE	src/sm/logrec.cpp	57;"	d	file:
 SM_SOURCE	src/sm/logstub.cpp	34;"	d	file:
 SM_SOURCE	src/sm/newsort.cpp	57;"	d	file:
@@ -12564,7 +12565,7 @@ deallocate	src/fc/w_temp_alloc.h	/^        void deallocate(T*, size_t) { \/* nop
 debug_abort	src/sm/crash.h	/^enum debuginfo_enum { debug_none, debug_delay, debug_crash, debug_abort, debug_yield };$/;"	e	enum:debuginfo_enum
 debug_crash	src/sm/crash.h	/^enum debuginfo_enum { debug_none, debug_delay, debug_crash, debug_abort, debug_yield };$/;"	e	enum:debuginfo_enum
 debug_delay	src/sm/crash.h	/^enum debuginfo_enum { debug_none, debug_delay, debug_crash, debug_abort, debug_yield };$/;"	e	enum:debuginfo_enum
-debug_log	src/sm/log_core.cpp	57;"	d	file:
+debug_log	src/sm/log_core.cpp	59;"	d	file:
 debug_log	src/sm/partition.cpp	57;"	d	file:
 debug_none	src/sm/crash.h	/^enum debuginfo_enum { debug_none, debug_delay, debug_crash, debug_abort, debug_yield };$/;"	e	enum:debuginfo_enum
 debug_prio	src/fc/errlog.cpp	/^ostream& debug_prio(ostream& o){ return flush_and_setprio(o, log_debug); }$/;"	f

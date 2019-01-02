@@ -98,7 +98,9 @@ struct mcs_lock {
 		me->_next = NULL;
 		me->_waiting = true;
 		membar_producer();
+		w_assert0(_tail != (void *)me);
 		qnode* pred = (qnode*) atomic_swap_ptr(&_tail, (void*) me);
+		w_assert0(pred != (void *)me);
 		if(pred) {
 			pred->_next = me;
 		}
