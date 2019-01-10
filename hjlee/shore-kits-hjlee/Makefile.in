@@ -86,10 +86,10 @@ bin_PROGRAMS = $(am__EXEEXT_1)
 @USE_QPIPE_TRUE@am__append_1 = $(WL_TPCH_QPIPE) $(WL_SSB_QPIPE) \
 @USE_QPIPE_TRUE@	$(WL_SSB_DBGEN_SHORE) $(WL_SSB_SHORE)
 subdir = .
-DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog COPYING \
+DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog \
 	$(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/configure $(am__configure_deps) \
-	$(top_srcdir)/include/kits-config.h.in depcomp compile \
+	$(top_srcdir)/include/kits-config.h.in depcomp COPYING compile \
 	config.guess config.sub install-sh missing
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/ax_pthread.m4 \

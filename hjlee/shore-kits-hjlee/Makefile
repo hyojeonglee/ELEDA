@@ -86,10 +86,10 @@ bin_PROGRAMS = $(am__EXEEXT_1)
 #am__append_1 = $(WL_TPCH_QPIPE) $(WL_SSB_QPIPE) \
 #	$(WL_SSB_DBGEN_SHORE) $(WL_SSB_SHORE)
 subdir = .
-DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog COPYING \
+DIST_COMMON = INSTALL NEWS README AUTHORS ChangeLog \
 	$(srcdir)/Makefile.in $(srcdir)/Makefile.am \
 	$(top_srcdir)/configure $(am__configure_deps) \
-	$(top_srcdir)/include/kits-config.h.in depcomp compile \
+	$(top_srcdir)/include/kits-config.h.in depcomp COPYING compile \
 	config.guess config.sub install-sh missing
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
 am__aclocal_m4_deps = $(top_srcdir)/m4/ax_pthread.m4 \
@@ -741,13 +741,13 @@ distuninstallcheck_listfiles = find . -type f -print
 am__distuninstallcheck_listfiles = $(distuninstallcheck_listfiles) \
   | sed 's|^\./|$(prefix)/|' | grep -v '$(infodir)/dir$$'
 distcleancheck_listfiles = find . -type f -print
-ACLOCAL = ${SHELL} /home/dcslab/charlie/shore-kits/missing aclocal-1.14
+ACLOCAL = ${SHELL} /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee/missing aclocal-1.14
 AMTAR = $${TAR-tar}
 AM_DEFAULT_VERBOSITY = 1
 ARCHOS = x86_64_LINUX
-AUTOCONF = ${SHELL} /home/dcslab/charlie/shore-kits/missing autoconf
-AUTOHEADER = ${SHELL} /home/dcslab/charlie/shore-kits/missing autoheader
-AUTOMAKE = ${SHELL} /home/dcslab/charlie/shore-kits/missing automake-1.14
+AUTOCONF = ${SHELL} /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee/missing autoconf
+AUTOHEADER = ${SHELL} /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee/missing autoheader
+AUTOMAKE = ${SHELL} /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee/missing automake-1.14
 AWK = gawk
 CC = gcc
 CCDEPMODE = depmode=gcc3
@@ -756,7 +756,7 @@ CPPFLAGS =
 CXX = g++
 CXXCPP = g++ -E
 CXXDEPMODE = depmode=gcc3
-CXXFLAGS =    -O3 -finline-limit=1200 -fomit-frame-pointer -mtune=native -march=native -Wall -Wcast-align -Wextra -Wfloat-equal -Wno-return-type 	 -Wno-invalid-offsetof -Wno-conversion -Wno-system-headers -pthread -DARCH_LP64 -m64  
+CXXFLAGS = -g -O0 -ggdb   -mtune=native -march=native -Wall -Wcast-align -Wextra -Wfloat-equal -Wno-return-type 	 -Wno-invalid-offsetof -Wno-conversion -Wno-system-headers -pthread -DARCH_LP64 -m64  
 CYGPATH_W = echo
 DEFS = -DHAVE_CONFIG_H
 DEPDIR = .deps
@@ -776,7 +776,7 @@ INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_PROGRAM = ${INSTALL}
 INSTALL_SCRIPT = ${INSTALL}
 INSTALL_STRIP_PROGRAM = $(install_sh) -c -s
-KITS_HOME = /home/dcslab/charlie/shore-kits
+KITS_HOME = /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee
 KITS_VERSION = shore-kits.2.1
 KITS_VERSION_MAJOR = shore-kits
 KITS_VERSION_MINOR = 2
@@ -785,7 +785,7 @@ LDFLAGS = -rdynamic
 LIBOBJS = 
 LIBS =  
 LTLIBOBJS = 
-MAKEINFO = ${SHELL} /home/dcslab/charlie/shore-kits/missing makeinfo
+MAKEINFO = ${SHELL} /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee/missing makeinfo
 MKDIR_P = /bin/mkdir -p
 OBJEXT = o
 PACKAGE = this_is_shore_kits
@@ -809,15 +809,15 @@ READLINE_INCLUDE =
 READLINE_LIB = 
 SET_MAKE = 
 SHELL = /bin/bash
-SHORE_HOME = /home/dcslab/charlie/shore-mt
+SHORE_HOME = /home/dcslab/hjlee/ELEDA/hjlee/shore-mt-hjlee
 STRIP = 
 VERSION = 2.1
 VTUNE_INCLUDES = 
 VTUNE_LIBS = 
-abs_builddir = /home/dcslab/charlie/shore-kits
-abs_srcdir = /home/dcslab/charlie/shore-kits
-abs_top_builddir = /home/dcslab/charlie/shore-kits
-abs_top_srcdir = /home/dcslab/charlie/shore-kits
+abs_builddir = /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee
+abs_srcdir = /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee
+abs_top_builddir = /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee
+abs_top_srcdir = /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee
 ac_ct_CC = gcc
 ac_ct_CXX = g++
 am__include = include
@@ -846,7 +846,7 @@ host_vendor = unknown
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${datarootdir}/info
-install_sh = ${SHELL} /home/dcslab/charlie/shore-kits/install-sh
+install_sh = ${SHELL} /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee/install-sh
 libdir = ${exec_prefix}/lib
 libexecdir = ${exec_prefix}/libexec
 localedir = ${datarootdir}/locale
@@ -873,7 +873,7 @@ top_srcdir = .
 AUTOMAKE_OPTIONS = subdir-objects
 
 # Shore related 
-SHORE_SRC = /home/dcslab/charlie/shore-mt/src
+SHORE_SRC = /home/dcslab/hjlee/ELEDA/hjlee/shore-mt-hjlee/src
 SHORE_CXXFLAGS = -DSOLARIS2 -DSTHREAD_CORE_PTHREAD -DARCH_LP64 -DNO_FASTNEW -DW_LARGEFILE -D_POSIX_PTHREAD_SEMANTICS -D__STDC_FORMAT_MACROS -D__STDC_CONSTANT_MACROS -w
 SHORE_INCLUDES = -I$(SHORE_SRC)/fc -I$(SHORE_SRC)/sm -I$(SHORE_SRC)/common -I$(SHORE_SRC)/sthread -I$(SHORE_SRC)/../config $(SHORE_CXXFLAGS) -I$(SHORE_SRC)/atomic_ops
 

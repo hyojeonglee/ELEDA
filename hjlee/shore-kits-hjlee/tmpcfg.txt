@@ -1,14 +1,14 @@
-configure args: --with-shore=/home/dcslab/charlie/shore-mt --with-glibtop --enable-checkrc
+configure args: --with-shore=/home/dcslab/hjlee/ELEDA/hjlee/shore-mt-hjlee --enable-checkrc --with-glibtop --enable-debug
 
 Shore Kits configuration:
   Version:         KITS_VERSION   shore-kits.2.1
-  Home:            KITS_HOME      /home/dcslab/charlie/shore-kits
+  Home:            KITS_HOME      /home/dcslab/hjlee/ELEDA/hjlee/shore-kits-hjlee
   Features:        KITS_FEATURES   caches
-  Shore SM home:   SHORE_HOME     /home/dcslab/charlie/shore-mt
+  Shore SM home:   SHORE_HOME     /home/dcslab/hjlee/ELEDA/hjlee/shore-mt-hjlee
   Readline home:   READLINE_HOME  
   CXX compiler:    CXX            g++
   CXX version:     CXX_VERSION    4.8.5
   Architecture/OS: ARCHOS         x86_64_LINUX
-  Compilation:     COMP_OPTIONS   maximum
-  CXXFLAGS            -O3 -finline-limit=1200 -fomit-frame-pointer -mtune=native -march=native -Wall -Wcast-align -Wextra -Wfloat-equal -Wno-return-type 	 -Wno-invalid-offsetof -Wno-conversion -Wno-system-headers -pthread -DARCH_LP64 -m64  
+  Compilation:     COMP_OPTIONS    debug dbgsymbols
+  CXXFLAGS         -g -O0 -ggdb   -mtune=native -march=native -Wall -Wcast-align -Wextra -Wfloat-equal -Wno-return-type 	 -Wno-invalid-offsetof -Wno-conversion -Wno-system-headers -pthread -DARCH_LP64 -m64  
   LDFLAGS          -rdynamic

@@ -917,6 +917,7 @@ log_core::set_current(
 // TODO: ELEDA worker thread struct
 // e_work_daemon_thread_t(log_core* core)
 // run() { _log->e_work_daemon } 
+/*
 class e_work_daemon_thread_t : public smthread_t {
 	log_core* _log;
 	public:
@@ -925,6 +926,7 @@ class e_work_daemon_thread_t : public smthread_t {
 
 	virtual void run() {_log->e_work_daemon();}
 };
+*/
 
 class flush_daemon_thread_t : public smthread_t {
 	log_core* _log;
@@ -2493,7 +2495,7 @@ void log_core::_allocate_slot(long idx) {
 // void eleda_write_log (int thr_id, void* log_ptr, size_t len, long lsn, void (*callback)(void*), void* arg);
 //	- using lsn, write log concurrently.
 //	- (Q) Usage of callback function pointer
-
+/*
 long eleda_reserve_lsn(size_t len) {
 	long lsn;
 	
@@ -2506,7 +2508,7 @@ long eleda_reserve_lsn(size_t len) {
 void eleda_write_log(int thr_id, void* log_ptr, size_t len, long lsn, void (*callback)(void*), void* arg) {
 	
 }
-
+*/
 rc_t log_core::insert(logrec_t &rec, lsn_t* rlsn) {
 	long size = rec.length();
 	w_assert1((size_t)size <= sizeof(logrec_t));

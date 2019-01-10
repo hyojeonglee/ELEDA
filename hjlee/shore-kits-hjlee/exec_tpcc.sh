@@ -1,15 +1,3 @@
-/*************************************************************************
-	> File Name: exec_tpcc.sh
-	> Author: charlie_chen
-	> Mail: charliecqc@dcslab.snu.ac.kr 
-	> Created Time: Mon 08 Oct 2018 02:20:51 PM KST
- ************************************************************************/
-
-# File Name: exec_tpcc.sh
-# Author: charlie_chen
-# mail: charliecqc@dcslab.snu.ac.kr
-# Created Time: Mon 08 Oct 2018 02:20:51 PM KST
-#########################################################################
 #!/bin/bash
 
 if [ $# -ne 1 ]

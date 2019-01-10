@@ -117,7 +117,7 @@ rc_t log_xct_end()
     // for test
 	int i = 0;
 	struct timespec local_time[2];
-	clock_gettime(CLOCK_MONOTONIC, &local_time[0]);
+	// clock_gettime(CLOCK_MONOTONIC, &local_time[0]);
 
 	xct_t* xd = xct();
     bool should_log = smlevel_1::log && smlevel_0::logging_enabled
@@ -129,9 +129,9 @@ rc_t log_xct_end()
         W_DO(xd->give_logbuf(logrec));
     }
 
-	clock_gettime(CLOCK_MONOTONIC, &local_time[1]);
-	calclock(local_time, &total_time, &total_count);
-	printf("%s, total_time: %llu, total_count: %llu\n", __func__, total_time, total_count);
+	// clock_gettime(CLOCK_MONOTONIC, &local_time[1]);
+	// calclock(local_time, &total_time, &total_count);
+	// printf("%s, total_time: %llu, total_count: %llu\n", __func__, total_time, total_count);
 
     return RCOK;
 }
